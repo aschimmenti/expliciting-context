@@ -27,13 +27,7 @@ Recall: 0.982
 F1 Score: 0.964
 
 ## Citation
-If you use this work in your research, please cite:
-bibtexCopy@inproceedings{giagnolini2024expliciting,
-  title={Expliciting contexts: semantic information extraction from traditional archival descriptions},
-  author={Giagnolini, Lucia and Schimmenti, Andrea and Bonora, Paolo and Tomasi, Francesca},
-  booktitle={AIUCD 2024},
-  year={2024}
-}
+Soon
 
 ## License
 This project is licensed under MIT License
