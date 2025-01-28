@@ -1,4 +1,4 @@
-# Archival Context Extraction (ACE)
+# Archival Biography RiCo Extraction (ABRE)
 A framework for extracting structured information from archival finding aids using Large Language Models.
 ## Overview
 ACE is a pipeline designed to transform unstructured biographical and historical notes from archival finding aids into structured, machine-readable formats. It uses open-source LLMs to identify and extract key events, relationships, and contextual information while maintaining archival description standards.
