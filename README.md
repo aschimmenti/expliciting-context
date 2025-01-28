@@ -1,7 +1,7 @@
 # Archival Biography RiC-O Extraction (ABRE)
 A framework for extracting structured information from archival finding aids using Large Language Models.
 ## Overview
-ABRE is a (wip) pipeline designed to transform unstructured biographical and historical notes from archival finding aids into structured, machine-readable formats. It uses open-source LLMs to identify and extract key events, relationships, and contextual information while maintaining archival description standards.
+ABRE is a (wip) pipeline designed to transform unstructured biographical and historical notes from archival finding aids into structured, machine-readable formats. It uses open-source LLMs to identify and extract key events, relationships, and contextual information while maintaining archival description standards, guaranteed by the aligment of the output to the Records in Contexts Ontology (RiC-O).
 ## Features
 
 - Event-based information extraction from biographical notes
