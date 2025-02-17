@@ -18,7 +18,9 @@ ABRE is a (wip) pipeline designed to transform unstructured biographical and his
 
 ## Requirements
 - Python 3.8+
-- Any OpenAI-compatible LLM API (currently using LLama3.3-70B) 
+- Any OpenAI-compatible LLM API (currently using LLama3.3-70B)
+- The script event-extraction.py requires a schema file and a .txt file
+- Each mapping script is inside the specific folder   
 
 ## Evaluation
 Current performance metrics over Andrea Costa's biography:
