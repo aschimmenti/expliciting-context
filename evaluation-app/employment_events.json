@@ -1,0 +1,264 @@
+[
+  {
+    "paragraph_index": 3,
+    "paragraph_text": "Il 15 dicembre 1870 si iscrive alla facoltà di filosofia e belle lettere dell'Università di Bologna come \"studente libero\" non avendo la possibilità di pagare le regolari tasse di ammissione e per mantenersi si impiega come scrivano in un'agenzia di assicurazioni imolese. Lì un impiegato, Paolo Renzi, lo associa, o almeno lo avvicina, all'Internazionale. A Imola e a Bologna compie il suo noviziato, nell'atmosfera che presto si accenderà degli entusiasmi per la Comune, e nel contatto con Carducci, che lo predilige fra i suoi allievi.",
+    "events": [
+      {
+        "type": "EMPLOYMENT",
+        "text": "Il 15 dicembre 1870 si iscrive alla facoltà di filosofia e belle lettere dell'Università di Bologna come \"studente libero\" non avendo la possibilità di pagare le regolari tasse di ammissione e per mantenersi si impiega come scrivano in un'agenzia di assicurazioni imolese. Lì un impiegato, Paolo Renzi, lo associa, o almeno lo avvicina, all'Internazionale. A Imola e a Bologna compie il suo noviziato, nell'atmosfera che presto si accenderà degli entusiasmi per la Comune, e nel contatto con Carducci, che lo predilige fra i suoi allievi.",
+        "data": {
+          "type": "EMPLOYMENT",
+          "description": "Andrea Costa's employment as a scrivano in an insurance agency in Imola",
+          "employment": [
+            {
+              "name": "Andrea Costa",
+              "role": "scrivano",
+              "worksFor": [
+                {
+                  "name": "agenzia di assicurazioni imolese",
+                  "type": "Insurance Agency"
+                }
+              ],
+              "date": {
+                "startDate": "15/12/1870",
+                "endDate": null
+              },
+              "location": {
+                "label": "Imola",
+                "description": "Insurance agency in Imola"
+              }
+            },
+            {
+              "name": "Paolo Renzi",
+              "role": "impiegato",
+              "worksFor": [
+                {
+                  "name": "agenzia di assicurazioni imolese",
+                  "type": "insurance Agency"
+                }
+              ],
+              "date": {
+                "startDate": null,
+                "endDate": null
+              },
+              "location": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 7,
+    "paragraph_text": "Intensissima è l'attività sviluppata da Costa a partire da questo momento: segretario del congresso costitutivo della Federazione italiana dell'Internazionale presieduto da Cafiero (Rimini, maggio 1872) e come tale tra i protagonisti del distacco dal consiglio generale dell'Internazionale guidato da Marx e da Engels, Costa viene eletto segretario della commissione di corrispondenza della Federazione, si dedica a un'infaticabile opera di propaganda e di organizzazione di tipo cospirativo, e nel mese di settembre partecipa al congresso \"antiautoritario\" di Saint-Imier, al termine del quale si trattiene qualche tempo in Svizzera con Bakunin.",
+    "events": [
+      {
+        "type": "EMPLOYMENT",
+        "text": "Intensissima è l'attività sviluppata da Costa a partire da questo momento: segretario del congresso costitutivo della Federazione italiana dell'Internazionale presieduto da Cafiero (Rimini, maggio 1872) e come tale tra i protagonisti del distacco dal consiglio generale dell'Internazionale guidato da Marx e da Engels, Costa viene eletto segretario della commissione di corrispondenza della Federazione, si dedica a un'infaticabile opera di propaganda e di organizzazione di tipo cospirativo, e nel mese di settembre partecipa al congresso \"antiautoritario\" di Saint-Imier, al termine del quale si trattiene qualche tempo in Svizzera con Bakunin.",
+        "data": {
+          "type": "EMPLOYMENT",
+          "description": "Andrea Costa's employment as secretary of the Federazione italiana dell'Internazionale",
+          "employment": [
+            {
+              "name": "Andrea Costa",
+              "role": "secretary",
+              "worksFor": [
+                {
+                  "name": "Federazione italiana dell'Internazionale",
+                  "type": "Organization"
+                }
+              ],
+              "date": {
+                "startDate": "1872",
+                "endDate": null
+              },
+              "location": {
+                "label": "Rimini",
+                "description": "Rimini, Italy"
+              }
+            },
+            {
+              "name": "Carlo Cafiero",
+              "role": "president",
+              "worksFor": [
+                {
+                  "name": "Federazione italiana dell'Internazionale",
+                  "type": "Organization"
+                }
+              ],
+              "location_:": null,
+              "date": null
+            },
+            {
+              "name": "_Marx_",
+              "role": "_leader_",
+              "worksFor": [
+                {
+                  "name": "_Internazionale_",
+                  "type": "_Organization_"
+                }
+              ],
+              "date": null,
+              "location": null
+            },
+            {
+              "name": "_Engels_",
+              "role": "_leader_",
+              "worksFor": [
+                {
+                  "name": "_Internazionale_",
+                  "type": "_Organization_"
+                }
+              ],
+              "date": null,
+              "location": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 19,
+    "paragraph_text": "Favorevole alla partecipazione alle competizioni elettorali, Costa non giunge d'un colpo alla determinazione di entrare in parlamento, bensì dopo che tale questione sarà risolta positivamente alla conferenza dei socialisti romagnoli del 26 febbraio 1882. Eletto nel mese di ottobre alla Camera nel collegio di Ravenna, presta, primo deputato socialista, il suo giuramento e inizia un'attività parlamentare intensa, caratterizzata da una intransigenza sul terreno dei principi, ma al tempo stesso da una spregiudicata politica di alleanza con l'estrema sinistra borghese per l'attuazione di una legislazione sociale in Italia.",
+    "events": [
+      {
+        "type": "EMPLOYMENT",
+        "text": "Favorevole alla partecipazione alle competizioni elettorali, Costa non giunge d'un colpo alla determinazione di entrare in parlamento, bensì dopo che tale questione sarà risolta positivamente alla conferenza dei socialisti romagnoli del 26 febbraio 1882. Eletto nel mese di ottobre alla Camera nel collegio di Ravenna, presta, primo deputato socialista, il suo giuramento e inizia un'attività parlamentare intensa, caratterizzata da una intransigenza sul terreno dei principi, ma al tempo stesso da una spregiudicata politica di alleanza con l'estrema sinistra borghese per l'attuazione di una legislazione sociale in Italia.",
+        "data": {
+          "type": "EMPLOYMENT",
+          "description": "Andrea Costa's employment as a deputy in the Italian Parliament",
+          "employment": [
+            {
+              "name": "Andrea Costa",
+              "role": "Deputy",
+              "worksFor": [
+                {
+                  "name": "Italian Parliament (Camera)",
+                  "type": "Legislative Body"
+                }
+              ],
+              "date": {
+                "startDate": "26/02/1882",
+                "endDate": null
+              },
+              "location": {
+                "label": "Ravenna",
+                "description": "Camera (Parliament) in the collegio of Ravenna, Italy"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 27,
+    "paragraph_text": "Nell'ottobre 1889 la coalizione democratica vince le elezioni amministrative locali a Imola e Costa è eletto per la prima volta consigliere comunale e provinciale. Ricopre la carica di assessore comunale dal 1889 al 1893 ed è eletto sindaco nel novembre 1893 e nel giugno 1897 (carica a cui rinuncia in entrambe le occasioni). Sul finire degli anni Ottanta lo sviluppo del movimento operaio poneva ormai inderogabilmente sul tappeto il problema della creazione di un partito socialista. Era questo appunto l'obiettivo che Costa si era prefisso e che fino al 1886 aveva perseguito con parziali successi, eppure il congresso di Ravenna del Partito socialista rivoluzionario italiano (1890) mostrò che il socialismo romagnolo era ormai entrato in una fase di ripiegamento.",
+    "events": [
+      {
+        "type": "EMPLOYMENT",
+        "text": "Nell'ottobre 1889 la coalizione democratica vince le elezioni amministrative locali a Imola e Costa è eletto per la prima volta consigliere comunale e provinciale. Ricopre la carica di assessore comunale dal 1889 al 1893 ed è eletto sindaco nel novembre 1893 e nel giugno 1897 (carica a cui rinuncia in entrambe le occasioni). Sul finire degli anni Ottanta lo sviluppo del movimento operaio poneva ormai inderogabilmente sul tappeto il problema della creazione di un partito socialista. Era questo appunto l'obiettivo che Costa si era prefisso e che fino al 1886 aveva perseguito con parziali successi, eppure il congresso di Ravenna del Partito socialista rivoluzionario italiano (1890) mostrò che il socialismo romagnolo era ormai entrato in una fase di ripiegamento.",
+        "data": {
+          "type": "EMPLOYMENT",
+          "description": "Andrea Costa's employment in Imola",
+          "employment": [
+            {
+              "name": "Andrea Costa",
+              "role": "consigliere comunale, assessore comunale, sindaco",
+              "worksFor": [
+                {
+                  "name": "Comune of Imola",
+                  "type": "Municipal Government"
+                },
+                {
+                  "name": "Partito socialista rivoluzionario italiano",
+                  "type": "Political Party"
+                }
+              ],
+              "date": {
+                "startDate": "1889",
+                "endDate": "1893"
+              },
+              "location": {
+                "label": "Imola",
+                "description": ""
+              }
+            },
+            {
+              "name": "Andrea Costa",
+              "role": "",
+              "worksFor": [
+                {
+                  "name": "Comune of Imola",
+                  "type": "Municipal Government"
+                },
+                {
+                  "name": "Partito socialista rivoluzionario italiano",
+                  "type": "Political Party"
+                }
+              ],
+              "date": {
+                "startDate": "1893",
+                "endDate": "1897”"
+              },
+              "location“: { \n       ”label“: ”Imola“, \n       ”description“: ”“ \n     } \n   }": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 31,
+    "paragraph_text": "Partecipa e interviene nel 1907 al congresso di Stoccarda della II Internazionale, e nel 1909 viene eletto vice presidente di quella Camera, nella quale per primo aveva portato, 25 anni prima, la parola dei lavoratori, e che tante volte aveva votato l'autorizzazione a procedere nei suoi confronti.",
+    "events": [
+      {
+        "type": "EMPLOYMENT",
+        "text": "Partecipa e interviene nel 1907 al congresso di Stoccarda della II Internazionale, e nel 1909 viene eletto vice presidente di quella Camera, nella quale per primo aveva portato, 25 anni prima, la parola dei lavoratori, e che tante volte aveva votato l'autorizzazione a procedere nei suoi confronti.",
+        "data": {
+          "type": "EMPLOYMENT",
+          "description": "Andrea Costa's employment as vice president of the Camera and participation in the II Internazionale congress",
+          "employment": [
+            {
+              "name": "Andrea Costa",
+              "role": "Vice President",
+              "worksFor": [
+                {
+                  "name": "Camera",
+                  "type": "Legislative Body"
+                }
+              ],
+              "date": {
+                "startDate": "1907",
+                "endDate": "1909"
+              },
+              "location": {
+                "label": "Camera",
+                "description": "Chamber, Italy"
+              }
+            },
+            {
+              "name": "Andrea Costa",
+              "role": null,
+              "worksFor": [
+                {
+                  "name": "II Internazionale",
+                  "type": null
+                }
+              ],
+              "date": {
+                "comment_: This date is not specific to II Internazionale but is mentioned for Andrea Costa's employment period, hence using it here as well.": "_startDate_\":\"1907",
+                "endDate": "1909"
+              },
+              "location": {
+                "label": "Stoccarda",
+                "description": "Location of II Internazionale congress"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "paragraph_index": 5,
+    "paragraph_text": "Nel 1872 tocca a lui, poco più che ventenne, commemorare l'internazionalista Francesco Piccinini, il cui assassinio in oscure circostanze fu come il primo segnale della rottura aperta fra repubblicani e internazionalisti. Non solo egli ha ormai pienamente aderito all'Internazionale, ma ne è divenuto uno dei dirigenti e degli organizzatori più attivi nella regione. L'inizio di un'ampia diffusione dell'internazionalismo in Romagna coincide con l'emergere alla testa del movimento, in luogo dei garibaldini Erminio Pescatori e Celso Ceretti, di Costa e di Lodovico Nabruzzi",
+    "events": [
+      {
+        "type": "DEATH",
+        "text": "Nel 1872 tocca a lui, poco più che ventenne, commemorare l'internazionalista Francesco Piccinini, il cui assassinio in oscure circostanze fu come il primo segnale della rottura aperta fra repubblicani e internazionalisti. Non solo egli ha ormai pienamente aderito all'Internazionale, ma ne è divenuto uno dei dirigenti e degli organizzatori più attivi nella regione. L'inizio di un'ampia diffusione dell'internazionalismo in Romagna coincide con l'emergere alla testa del movimento, in luogo dei garibaldini Erminio Pescatori e Celso Ceretti, di Costa e di Lodovico Nabruzzi",
+        "data": {
+          "type": "DEATH",
+          "description": "Francesco Piccinini's death commemorated by Andrea Costa",
+          "participants": [
+            {
+              "name": "Francesco Piccinini",
+              "deathDate": "1872",
+              "deathLocation": {
+                "label": null,
+                "description": null
+              },
+              "reason": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 33,
+    "paragraph_text": "Muore all'ospedale di Imola il 19 gennaio 1910.",
+    "events": [
+      {
+        "type": "DEATH",
+        "text": "Muore all'ospedale di Imola il 19 gennaio 1910.",
+        "data": {
+          "type": "DEATH",
+          "description": "Andrea Costa's death",
+          "participants": [
+            {
+              "name": "Andrea Costa",
+              "deathDate": "19/01/1910",
+              "deathLocation": {
+                "label": "Imola",
+                "description": "L'ospedale di Imola"
+              },
+              "reason": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

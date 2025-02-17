@@ -1,0 +1,172 @@
+[
+  {
+    "paragraph_index": 15,
+    "paragraph_text": "Il periodo che si apre ora è denso di avvenimenti destinati a pesare in modo determinante sulla vita di Costa ed è stato a ragione considerato decisivo per la sua evoluzione politica. Primo tra questi è l'incontro in Svizzera con la giovane rivoluzionaria russa Anna Kuliscioff, alla quale Costa rimane legato affettivamente fino al 1885. Dallo loro relazione nasce a Imola l'8 dicembre 1881 Andreana, detta Andreina (1881-1959).",
+    "events": [
+      {
+        "type": "RELATIONSHIP",
+        "text": "Il periodo che si apre ora è denso di avvenimenti destinati a pesare in modo determinante sulla vita di Costa ed è stato a ragione considerato decisivo per la sua evoluzione politica. Primo tra questi è l'incontro in Svizzera con la giovane rivoluzionaria russa Anna Kuliscioff, alla quale Costa rimane legato affettivamente fino al 1885. Dallo loro relazione nasce a Imola l'8 dicembre 1881 Andreana, detta Andreina (1881-1959).",
+        "data": {
+          "type": "RELATIONSHIP",
+          "description": "Romantic relationship between Andrea Costa and Anna Kuliscioff",
+          "relations": [
+            {
+              "name": "Andrea Costa",
+              "role": "partner",
+              "hasRelationshipWith": [
+                {
+                  "name": "Anna Kuliscioff",
+                  "role": "partner"
+                }
+              ],
+              "date": {
+                "startDate": "1877",
+                "endDate": null
+              },
+              "location": {
+                "label": "Svizzera",
+                "description": "Switzerland"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 16,
+    "paragraph_text": "Tra le cause dell'evoluzione politica di Costa determinante è il contatto con l'ambiente del socialismo internazionale. In quest'ambito deve essere sottolineata l'importanza del suo soggiorno in Francia a partire dalla fine del 1877 e dei suoi contatti con il socialismo francese (in particolare con Jules Guesde).",
+    "events": [
+      {
+        "type": "RELATIONSHIP",
+        "text": "Tra le cause dell'evoluzione politica di Costa determinante è il contatto con l'ambiente del socialismo internazionale. In quest'ambito deve essere sottolineata l'importanza del suo soggiorno in Francia a partire dalla fine del 1877 e dei suoi contatti con il socialismo francese (in particolare con Jules Guesde).",
+        "data": {
+          "type": "RELATIONSHIP",
+          "description": "Romantic relationship between Andrea Costa and Anna Kuliscioff",
+          "relations": [
+            {
+              "name": "Andrea Costa",
+              "role": "partner",
+              "hasRelationshipWith": [
+                {
+                  "name": "Anna Kuliscioff",
+                  "role": "partner"
+                }
+              ],
+              "date": {
+                "startDate": null,
+                "endDate": "1885"
+              },
+              "location": {
+                "label": "Switzerland and Imola",
+                "description": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 17,
+    "paragraph_text": "Arrestato e incarcerato a Parigi (marzo 1878), ha modo di operare in carcere un approfondito ripensamento; dopo la sua liberazione (giugno 1879) allaccia rapporti con l'evoluzionista Beno'eet Malon, che grande parte aveva avuto nel distacco delle organizzazioni italiane dal bakuninismo.",
+    "events": [
+      {
+        "type": "RELATIONSHIP",
+        "text": "Arrestato e incarcerato a Parigi (marzo 1878), ha modo di operare in carcere un approfondito ripensamento; dopo la sua liberazione (giugno 1879) allaccia rapporti con l'evoluzionista Beno'eet Malon, che grande parte aveva avuto nel distacco delle organizzazioni italiane dal bakuninismo.",
+        "data": {
+          "type": "RELATIONSHIP",
+          "description": "Political alliance between Andrea Costa and Benoît Malon",
+          "relations": [
+            {
+              "name": "Andrea Costa",
+              "role": "political ally",
+              "hasRelationshipWith": [
+                {
+                  "name": "Benoît Malon",
+                  "role": "political ally"
+                }
+              ],
+              "date": {
+                "startDate": null,
+                "endDate": null
+              },
+              "location": {
+                "label": "Paris",
+                "description": "Paris, France"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 28,
+    "paragraph_text": "Dalla metà degli anni Ottanta inizia la sua relazione con l'imolese Enrica Astorri (1853-1939) da cui nascono Andreano (1885-1886), Annita (1888-1918), Andreina (1890-1973) e Bice (1897-1976).",
+    "events": [
+      {
+        "type": "RELATIONSHIP",
+        "text": "Dalla metà degli anni Ottanta inizia la sua relazione con l'imolese Enrica Astorri (1853-1939) da cui nascono Andreano (1885-1886), Annita (1888-1918), Andreina (1890-1973) e Bice (1897-1976).",
+        "data": {
+          "type": "RELATIONSHIP",
+          "description": "Romantic partnership between Andrea Costa and Enrica Astorri",
+          "relations": [
+            {
+              "name": "Andrea Costa",
+              "role": "partner",
+              "hasRelationshipWith": [
+                {
+                  "name": "Enrica Astorri",
+                  "role": "partner"
+                }
+              ],
+              "date": {
+                "startDate": null,
+                "endDate": null
+              },
+              "location": {
+                "label": null,
+                "description": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 32,
+    "paragraph_text": "Il 2 gennaio 1906 sposa a Nizza Maria Angela Cicognani di Faenza.",
+    "events": [
+      {
+        "type": "RELATIONSHIP",
+        "text": "Il 2 gennaio 1906 sposa a Nizza Maria Angela Cicognani di Faenza.",
+        "data": {
+          "type": "RELATIONSHIP",
+          "description": "Marriage of Andrea Costa and Maria Angela Cicognani di Faenza",
+          "relations": [
+            {
+              "name": "Andrea Costa",
+              "role": "husband",
+              "hasRelationshipWith": [
+                {
+                  "name": "Maria Angela Cicognani di Faenza",
+                  "role": "wife"
+                }
+              ],
+              "date": {
+                "startDate": "02/01/1906",
+                "endDate": null
+              },
+              "location": {
+                "label": "Nizza",
+                "description": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

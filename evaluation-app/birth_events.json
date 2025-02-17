@@ -1,0 +1,209 @@
+[
+  {
+    "paragraph_index": 0,
+    "paragraph_text": "Andrea Costa nasce a Imola il 29 novembre 1851 da Pietro e Rosa Tozzi in una famiglia cattolica praticante e di modeste condizioni. Il giorno successivo è battezzato nella cattedrale di S. Cassiano con i nomi di Andrea, Antonio e Baldassarre e suo padrino è Orso Orsini.",
+    "events": [
+      {
+        "type": "BIRTH",
+        "text": "Andrea Costa nasce a Imola il 29 novembre 1851 da Pietro e Rosa Tozzi in una famiglia cattolica praticante e di modeste condizioni. Il giorno successivo è battezzato nella cattedrale di S. Cassiano con i nomi di Andrea, Antonio e Baldassarre e suo padrino è Orso Orsini.",
+        "data": {
+          "type": "BIRTH",
+          "description": "Birth of Andrea Costa",
+          "location": {
+            "label": "Imola",
+            "description": "Imola"
+          },
+          "participants": [
+            {
+              "name": "Andrea Costa",
+              "role": "newborn",
+              "birthDate": "29/11/1851"
+            },
+            {
+              "name": "Pietro",
+              "role": "parent"
+            },
+            {
+              "name": "Rosa Tozzi",
+              "role": "parent"
+            },
+            {
+              "name": "Orso Orsini",
+              "role": null
+            }
+          ],
+          "people": []
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 14,
+    "paragraph_text": "Il 5 agosto 1877 nasce a Bologna da Violetta Dall'Alpi il figlio Andreino (1877-1937) e subito dopo Costa si rifugia in Svizzera per sfuggire all'arresto.",
+    "events": [
+      {
+        "type": "BIRTH",
+        "text": "Il 5 agosto 1877 nasce a Bologna da Violetta Dall'Alpi il figlio Andreino (1877-1937) e subito dopo Costa si rifugia in Svizzera per sfuggire all'arresto.",
+        "data": {
+          "type": "BIRTH",
+          "description": "Birth of Andreino",
+          "location": {
+            "label": "Bologna",
+            "description": "Bologna"
+          },
+          "participants": [
+            {
+              "name": "Andreino",
+              "role": "newborn",
+              "birthDate": "05/08/1877"
+            },
+            {
+              "name": "Violetta Dall'Alpi",
+              "role": "parent"
+            },
+            {
+              "name": "Andrea Costa",
+              "role": "parent"
+            }
+          ],
+          "people": []
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 15,
+    "paragraph_text": "Il periodo che si apre ora è denso di avvenimenti destinati a pesare in modo determinante sulla vita di Costa ed è stato a ragione considerato decisivo per la sua evoluzione politica. Primo tra questi è l'incontro in Svizzera con la giovane rivoluzionaria russa Anna Kuliscioff, alla quale Costa rimane legato affettivamente fino al 1885. Dallo loro relazione nasce a Imola l'8 dicembre 1881 Andreana, detta Andreina (1881-1959).",
+    "events": [
+      {
+        "type": "BIRTH",
+        "text": "Il periodo che si apre ora è denso di avvenimenti destinati a pesare in modo determinante sulla vita di Costa ed è stato a ragione considerato decisivo per la sua evoluzione politica. Primo tra questi è l'incontro in Svizzera con la giovane rivoluzionaria russa Anna Kuliscioff, alla quale Costa rimane legato affettivamente fino al 1885. Dallo loro relazione nasce a Imola l'8 dicembre 1881 Andreana, detta Andreina (1881-1959).",
+        "data": {
+          "type": "BIRTH",
+          "description": "Birth of Andreana, detta Andreina",
+          "location": {
+            "label": "Imola",
+            "description": "Imola"
+          },
+          "participants": [
+            {
+              "name": "Andreana, detta Andreina",
+              "role": "newborn",
+              "birthDate": "08/12/1881"
+            },
+            {
+              "name": "Andrea Costa",
+              "role": "parent"
+            },
+            {
+              "name": "Anna Kuliscioff",
+              "role": "parent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 28,
+    "paragraph_text": "Dalla metà degli anni Ottanta inizia la sua relazione con l'imolese Enrica Astorri (1853-1939) da cui nascono Andreano (1885-1886), Annita (1888-1918), Andreina (1890-1973) e Bice (1897-1976).",
+    "events": [
+      {
+        "type": "BIRTH",
+        "text": "Dalla metà degli anni Ottanta inizia la sua relazione con l'imolese Enrica Astorri (1853-1939) da cui nascono Andreano (1885-1886), Annita (1888-1918), Andreina (1890-1973) e Bice (1897-1976).",
+        "data": {
+          "type": "BIRTH",
+          "description": "Birth of Andreano",
+          "location": {
+            "label": null,
+            "description": null
+          },
+          "participants": [
+            {
+              "name": "Andreano",
+              "role": "newborn",
+              "birthDate": null
+            },
+            {
+              "name": "Andrea Costa",
+              "role": "parent",
+              "birthDate": null
+            },
+            {
+              "name": "Enrica Astorri",
+              "role": "parent",
+              "birthDate": null
+            }
+          ]
+        }
+      },
+      {
+        "type": "BIRTH",
+        "text": "Dalla metà degli anni Ottanta inizia la sua relazione con l'imolese Enrica Astorri (1853-1939) da cui nascono Andreano (1885-1886), Annita (1888-1918), Andreina (1890-1973) e Bice (1897-1976).",
+        "data": {
+          "type": "BIRTH",
+          "description": "Birth of Annita",
+          "location": {
+            "label": null,
+            "description": null
+          },
+          "participants': [\n      {\n        'name': 'Annita',\n        'role': 'newborn',\n        'birthDate': null\n      },\n      {\n        'name': 'Andrea Costa',\n        'role': 'parent',\n        'birthDate': null\n      },\n      {\n        'name': 'Enrica Astorri',\n        'role': 'parent',\n        'birthDate': null\n      }": "",
+          "people": []
+        }
+      },
+      {
+        "type": "BIRTH",
+        "text": "Dalla metà degli anni Ottanta inizia la sua relazione con l'imolese Enrica Astorri (1853-1939) da cui nascono Andreano (1885-1886), Annita (1888-1918), Andreina (1890-1973) e Bice (1897-1976).",
+        "data": {
+          "type": "BIRTH",
+          "description": "Birth of Andreina",
+          "location": {
+            "label": null,
+            "description": null
+          },
+          "participants": [
+            {
+              "name": "Andreina",
+              "role": "newborn",
+              "birthDate": null
+            },
+            {
+              "name’": "Andrea Costa’",
+              "role’": "parent’",
+              "birthDate’": null
+            },
+            {
+              "name’": "Enrica Astorri’",
+              "role’": "parent’",
+              "birthDate’": null
+            }
+          ],
+          "people": []
+        }
+      },
+      {
+        "type": "BIRTH",
+        "text": "Dalla metà degli anni Ottanta inizia la sua relazione con l'imolese Enrica Astorri (1853-1939) da cui nascono Andreano (1885-1886), Annita (1888-1918), Andreina (1890-1973) e Bice (1897-1976).",
+        "data": {
+          "type": "BIRTH",
+          "description": "Birth of Bice",
+          "location": {
+            "label": null,
+            "description": null
+          },
+          "participants": [
+            {
+              "name": "Bice",
+              "role": "newborn",
+              "birthDate": null
+            },
+            {
+              "name“:”Andrea Costa“,     \n       ”role“:”parent“,      \n       ”birthDate“:null       \n     },      \n     {       \n         ”name“: ”Enrica Astorri“,        \n         ”role“:”parent“,         \n         ”birthDate“:null          \n          }": ""
+            }
+          ],
+          "people": []
+        }
+      }
+    ]
+  }
+]

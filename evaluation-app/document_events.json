@@ -1,0 +1,82 @@
+[
+  {
+    "paragraph_index": 9,
+    "paragraph_text": "Rilasciato il 20 luglio 1873 è presente alla fondazione della Federazione romagnola dell'Internazionale; poco dopo partecipa a quella della Federazione umbro-marchigiana (che anche in seguito ne avrebbe subito l'influenza: a Iesi e a Fabriano, tra l'altro, Costa pubblica la prima serie del periodico 'abIl Martello'bb).",
+    "events": [
+      {
+        "type": "DOCUMENT",
+        "text": "Rilasciato il 20 luglio 1873 è presente alla fondazione della Federazione romagnola dell'Internazionale; poco dopo partecipa a quella della Federazione umbro-marchigiana (che anche in seguito ne avrebbe subito l'influenza: a Iesi e a Fabriano, tra l'altro, Costa pubblica la prima serie del periodico 'abIl Martello'bb).",
+        "data": {
+          "type": "DOCUMENT",
+          "document": {
+            "title": "Il Martello",
+            "creator": [
+              {
+                "name": "Andrea Costa",
+                "role": "contributor, founder"
+              },
+              {
+                "name": "Federazione romagnola",
+                "role": "contributors"
+              },
+              {
+                "name": "Federazione umbro-marchigiana",
+                "role": "contributors"
+              }
+            ],
+            "creationDate": "1873",
+            "contentType": "periodical publication"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 18,
+    "paragraph_text": "Questi in breve, gli antecedenti essenziali di quella che è stata chiamata la \"svolta\" di Costa: il 27 luglio 1879, su 'La Plebe' di Enrico Bignami, la sua lettera \"Ai miei amici di Romagna\" apre una nuova fase nella storia del socialismo italiano. Nel clima politico dell'inizio degli anni Ottanta, caratterizzato da numerose agitazioni per l'allargamento del suffragio, si adopera - con l'azione e con gli organi di stampa da lui stesso fondati in questo periodo: la 'Rivista internazionale del socialismo' e l''Avanti!' - per far passare i propri nuovi orientamenti nel movimento socialista.",
+    "events": [
+      {
+        "type": "DOCUMENT",
+        "text": "Questi in breve, gli antecedenti essenziali di quella che è stata chiamata la \"svolta\" di Costa: il 27 luglio 1879, su 'La Plebe' di Enrico Bignami, la sua lettera \"Ai miei amici di Romagna\" apre una nuova fase nella storia del socialismo italiano. Nel clima politico dell'inizio degli anni Ottanta, caratterizzato da numerose agitazioni per l'allargamento del suffragio, si adopera - con l'azione e con gli organi di stampa da lui stesso fondati in questo periodo: la 'Rivista internazionale del socialismo' e l''Avanti!' - per far passare i propri nuovi orientamenti nel movimento socialista.",
+        "data": {
+          "type": "DOCUMENT",
+          "document": {
+            "title": "Ai miei amici di Romagna",
+            "creator": [
+              {
+                "name": "Andrea Costa",
+                "role": "author"
+              }
+            ],
+            "creationDate": "27/07/1879",
+            "contentType": "letter"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraph_index": 23,
+    "paragraph_text": "Costa scrive nel 1880 il Sogno, una visione utopistica della sua Imola, redenta in futuro dal socialismo; pubblicato e ripubblicato in opuscolo, il Sogno esprime una volta di più le attese e le speranze di liberazione del rivoluzionario proprio alle soglie di un'attività pratica condotta anche attraverso le istituzioni, quasi a sottolineare la non estraneità dei due momenti dell'impegno sociale: quello immediato, della resistenza, del sollievo ai più deboli, della ricerca del lavoro per i braccianti disoccupati, e quello ideale dell'avvenire.",
+    "events": [
+      {
+        "type": "DOCUMENT",
+        "text": "Costa scrive nel 1880 il Sogno, una visione utopistica della sua Imola, redenta in futuro dal socialismo; pubblicato e ripubblicato in opuscolo, il Sogno esprime una volta di più le attese e le speranze di liberazione del rivoluzionario proprio alle soglie di un'attività pratica condotta anche attraverso le istituzioni, quasi a sottolineare la non estraneità dei due momenti dell'impegno sociale: quello immediato, della resistenza, del sollievo ai più deboli, della ricerca del lavoro per i braccianti disoccupati, e quello ideale dell'avvenire.",
+        "data": {
+          "type": "DOCUMENT",
+          "document": {
+            "title": "Il Sogno",
+            "creator": [
+              {
+                "name": "Andrea Costa",
+                "role": "author"
+              }
+            ],
+            "creationDate": "1880",
+            "contentType": "pamphlet"
+          }
+        }
+      }
+    ]
+  }
+]
