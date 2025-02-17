@@ -1,0 +1,34 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_assessore_comunale_4> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1889-01-01"^^xsd:date ;
+    rico:endDate "1893-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/assessore_comunale_comune_of_imola> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_consigliere_comunale_4> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1889-01-01"^^xsd:date ;
+    rico:endDate "1893-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/consigliere_comunale_comune_of_imola> .
+
+<http://example.org/#place/imola> a rico:Place ;
+    rico:name "Imola" .
+
+<http://example.org/#position/assessore_comunale_comune_of_imola> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/comune_of_imola> ;
+    rico:name "assessore comunale" .
+
+<http://example.org/#position/consigliere_comunale_comune_of_imola> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/comune_of_imola> ;
+    rico:name "consigliere comunale" .
+
+<http://example.org/#corporatebody/comune_of_imola> a rico:CorporateBody ;
+    rico:corporateBodyType "Municipal Government" ;
+    rico:isLocatedAt <http://example.org/#place/imola> ;
+    rico:name "Comune of Imola" .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+

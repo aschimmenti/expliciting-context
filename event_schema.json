@@ -1,0 +1,152 @@
+{
+  "BIRTH": {
+    "instructions": "This schema describes the birth of an entity. The birthdate can be just YYYY if no known day/month is given. The participants key holds an array, therefore it can contain e.g. mother, father, newborn. Date is relative to each newborn, it is not needed for parents.",
+    "properties": {
+      "description": "<Description of the event>",
+      "location": {
+        "label": "<location_label>",
+        "description": "<location_description>"
+      },
+      "participants": [
+        {
+          "name": "<Full name of the person>",
+          "role": "<newborn/parent/relative>",
+          "birthDate": "<DD/MM/YYYY>"
+        }
+      ]
+    }
+  },
+  "DEATH": {
+    "instructions": "This schema describes the death of an entity. The death date can be just YYYY if no known day/month is given. The participants key holds an array, therefore it can contain multiple people if they die the same date.",
+    "properties": {
+      "description": "<Description of the event>",
+      "participants": [
+        {
+          "name": "<Full name of the person>",
+          "deathDate": "<DD/MM/YYYY>",
+          "deathLocation": {
+            "label": "<location label>",
+            "description": "<location description>"
+          },
+          "reason": "<reason for death>"
+        }
+      ]
+    }
+  },
+  "EDUCATION": {
+    "instructions": "each educated person can be either student (add time if available) or teacher/professor/guide/mentor. Unless mentioned, the period date is unnecessary for teachers, professors etc.",
+    "properties": {
+      "description": "<Description of the event>",
+      "education": [
+        {
+          "name": "<Person name>",
+          "role": "<student/teacher/professor/guide/mentor>",
+          "period": {
+            "startDate": "<Start date>",
+            "endDate": "<End date>"
+          },
+          "institution": {
+            "name": "<institution name>",
+            "type": "<institution type, e.g. elementary school, university",
+            "location": "<institution location>"
+          }
+        }
+      ]
+    }
+  },
+  "EMPLOYMENT": {
+    "instructions": "The employment array contains the subject(s) employment(s) mentioned in the text. A subject can be mentioned to have more than one employments, or multiple entities can work different jobs.",
+    "properties": {
+      "description": "<Description of the event>",
+      "employment": [
+        {
+          "name": "<subject name>",
+          "role": "<work role of the subject>",
+          "worksFor": [
+            {
+              "name": "<name of the entity the subject works for>",
+              "type": "<type of the entity the subject works for>"
+            }
+          ],
+          "date": {
+            "startDate": "<Start date of subject's role>",
+            "endDate": "<End date of subject's role>"
+          },
+          "location": {
+            "label": "<location label>",
+            "description": "<location description>"
+          }
+        }
+      ]
+    }
+  },
+  "RELATIONSHIP": {
+    "instructions": "Each relation (e.g. friendship, marriage) between two or more entities",
+    "properties": {
+      "description": "<Description of the event>",
+      "relations": [
+        {
+          "name": "<subject name>",
+          "role": "<role in the relation>",
+          "hasRelationshipWith": [
+            {
+              "name": "<name of the entity the subject has a relation with>",
+              "role": "<role in the relation>"
+            }
+          ],
+          "date": {
+            "startDate": "<Start date of subject's relation>",
+            "endDate": "<End date of subject's relation>"
+          },
+          "location": {
+            "label": "<location label of the subject's relation>",
+            "description": "<location description>"
+          }
+        }
+      ]
+    }
+  },
+  "POLITICS": {
+"instruction": "A political event encompasses any politically significant action or occurrence that involves participants with context-dependent roles in a defined spatio-temporal setting. Participants must be of type PERSON, ORGANIZATION, or GROUP. Location and temporal data are captured as separate elements from participant information.",    "description": "<Detailed description of the event>",
+    "properties": {
+      "actions": [
+        {
+          "action": "<specific event or action that the entities suffer or cause>",
+          "participants":[
+            {
+              "name": "<Participant's name>",
+              "type": "<person/organization/group>",
+              "role": "<role of the participant in the action>"
+            }
+          ],
+          "date": {
+            "startDate": "<Start date of subject's relation>",
+            "endDate": "<End date of subject's relation>"
+          },
+          "location": [
+            {
+              "label": "<Location name>",
+              "description": "<Detailed description of the location>"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "DOCUMENT": {
+    "instructions": "Describes a document, artifact, literary or political document's metadata and the event of its creation.",
+    "properties": {
+      "document": {
+        "title": "<Document title>",
+        "creator": [
+          {
+            "name": "<Creator name>",
+            "role": "<Role, e.g., author, editor>"
+          }
+        ],
+        "creationDate": "<Creation date (DD/MM/YYYY YYYY)>",
+        "contentType": "<Content type, e.g., text, image>"
+      }
+    }
+  }
+}

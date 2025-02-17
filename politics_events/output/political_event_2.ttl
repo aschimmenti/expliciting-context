@@ -1,0 +1,76 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PerformanceRelation ;
+    rico:description "main participant" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:bakunin_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PerformanceRelation ;
+    rico:description "influencer" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 ;
+    rico:relationHasTarget ex:bakunin .
+
+ex:bologna_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bologna ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 .
+
+ex:fascio_operaio_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PerformanceRelation ;
+    rico:description "participant" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 ;
+    rico:relationHasTarget ex:fascio_operaio .
+
+ex:marche_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_marche ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 .
+
+ex:popolani_garibaldini_bolognesi_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PerformanceRelation ;
+    rico:description "participants" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 ;
+    rico:relationHasTarget ex:popolani_garibaldini_bolognesi .
+
+ex:romagna_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 .
+
+ex:toscana_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_toscana ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 .
+
+ex:activity_type_participation_in_socialist_and_anarchist_movements a rico:ActivityType ;
+    rico:name "participation in socialist and anarchist movements" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:bakunin a rico:Person ;
+    rico:name "Bakunin" .
+
+ex:fascio_operaio a rico:CorporateBody ;
+    rico:name "Fascio operaio" .
+
+ex:place_bologna a rico:Place ;
+    rico:description "city in Emilia-Romagna, Italy" ;
+    rico:name "Bologna" .
+
+ex:place_marche a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Marche" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region in Emilia-Romagna, Italy" ;
+    rico:name "Romagna" .
+
+ex:place_toscana a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Toscana" .
+
+ex:popolani_garibaldini_bolognesi a rico:CorporateBody ;
+    rico:name "Popolani garibaldini bolognesi" .
+
+ex:activity_andrea_costas_involvement_with_socialist_and_anarchist_movements_2 a rico:Activity ;
+    rico:beginningDate "1870-12-15"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_participation_in_socialist_and_anarchist_movements ;
+    rico:name "Andrea Costa's involvement with socialist and anarchist movements" .
+

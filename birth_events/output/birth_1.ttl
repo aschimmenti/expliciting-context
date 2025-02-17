@@ -1,0 +1,53 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/event/Birth_Andrea_Costa> a rico:Event ;
+    rico:hasOrHadParticipant <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Pietro_Costa>,
+        <http://example.org/person/Rosa_Tozzi> ;
+    rico:name "Birth of Andrea Costa" ;
+    rico:occurredAtDate <http://example.org/date/1851-11-29> .
+
+<http://example.org/family/Andrea_Costa_Family> a rico:Family ;
+    rico:hasOrHadMember <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Pietro_Costa>,
+        <http://example.org/person/Rosa_Tozzi> ;
+    rico:name "Andrea Costa Family" .
+
+<http://example.org/relation/birth_place_Andrea_Costa> a rico:PlaceRelation ;
+    rico:date "1851-11-29"^^xsd:date ;
+    rico:placeRelationType "birthPlace" ;
+    rico:relationHasSource <http://example.org/place/Imola> ;
+    rico:relationHasTarget <http://example.org/person/Andrea_Costa> .
+
+<http://example.org/relation/family_Pietro_Costa_Andrea_Costa> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "1851-11-29"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Pietro_Costa> ;
+    rico:relationHasTarget <http://example.org/person/Andrea_Costa> .
+
+<http://example.org/relation/family_Rosa_Tozzi_Andrea_Costa> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "1851-11-29"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Rosa_Tozzi> ;
+    rico:relationHasTarget <http://example.org/person/Andrea_Costa> .
+
+<http://example.org/date/1851-11-29> a rico:Date ;
+    rico:normalizedDateValue "1851-11-29"^^xsd:date .
+
+<http://example.org/place/Imola> a rico:Place ;
+    rico:name "Imola" .
+
+<http://example.org/person/Pietro_Costa> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andrea_Costa> ;
+    rico:name "Pietro Costa" .
+
+<http://example.org/person/Rosa_Tozzi> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andrea_Costa> ;
+    rico:name "Rosa Tozzi" .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+    rico:hasParent <http://example.org/person/Pietro_Costa>,
+        <http://example.org/person/Rosa_Tozzi> ;
+    rico:name "Andrea Costa" .
+

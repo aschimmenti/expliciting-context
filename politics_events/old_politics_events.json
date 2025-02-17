@@ -1,0 +1,1645 @@
+[
+  {
+    "paragraphindex": 4,
+    "paragraphtext": "Frequenta i popolani garibaldini bolognesi e con i più audaci, senza passare attraverso l'esperienza mazziniana, partecipa al Fascio operaio, che da Bologna si diffonde in Romagna, nelle Marche, in Toscana, con contenuti socialisti. Incontra Bakunin e l'anarchia.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Frequenta i popolani garibaldini bolognesi e con i più audaci, senza passare attraverso l'esperienza mazziniana, partecipa al Fascio operaio, che da Bologna si diffonde in Romagna, nelle Marche, in Toscana, con contenuti socialisti. Incontra Bakunin e l'anarchia.",
+        "data": {
+          "description": "Andrea Costa's participation in socialist movements",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Garibaldini bolognesi",
+                "type": "organization"
+              },
+              {
+                "name": "Bakunin",
+                "type": "person"
+              },
+              {
+                "name": "Fascio operaio",
+                "type": "organization"
+              },
+              {
+                "name": "Internazionale",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "participation in socialist movements",
+                "goal": "promote social change through socialist movements",
+                "actors": [
+                  "Andrea Costa",
+                  "Garibaldini bolognesi"
+                ],
+                "patients": [
+                  "Bakunin",
+                  "Fascio operaio",
+                  "Internazionale"
+                ],
+                "date": {
+                  "startDate": "1870",
+                  "endDate": "1870"
+                },
+                "location": [
+                  {
+                    "label": "Bologna",
+                    "description": "location of origin of socialist movements"
+                  },
+                  {
+                    "label": "Romagna",
+                    "description": "location of diffusion of socialist movements"
+                  },
+                  {
+                    "label": "Bologna",
+                    "description": "location of diffusion of socialist movements"
+                  },
+                  {
+                    "label": "Bologna",
+                    "description": "location of diffusion of socialist movements"
+                  }
+
+                ],
+                "consequence": "promote social change through socialist movements and increase awareness of socialism and possible revolution"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 5,
+    "paragraphtext": "Nel 1872 tocca a lui, poco più che ventenne, commemorare l'internazionalista Francesco Piccinini, il cui assassinio in oscure circostanze fu come il primo segnale della rottura aperta fra repubblicani e internazionalisti. Non solo egli ha ormai pienamente aderito all'Internazionale, ma ne è divenuto uno dei dirigenti e degli organizzatori più attivi nella regione. L'inizio di un'ampia diffusione dell'internazionalismo in Romagna coincide con l'emergere alla testa del movimento, in luogo dei garibaldini Erminio Pescatori e Celso Ceretti, di Costa e di Lodovico Nabruzzi",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Nel 1872 tocca a lui, poco più che ventenne, commemorare l'internazionalista Francesco Piccinini, il cui assassinio in oscure circostanze fu come il primo segnale della rottura aperta fra repubblicani e internazionalisti. Non solo egli ha ormai pienamente aderito all'Internazionale, ma ne è divenuto uno dei dirigenti e degli organizzatori più attivi nella regione. L'inizio di un'ampia diffusione dell'internazionalismo in Romagna coincide con l'emergere alla testa del movimento, in luogo dei garibaldini Erminio Pescatori e Celso Ceretti, di Costa e di Lodovico Nabruzzi",
+        "data": {
+          "description": "Andrea Costa's leadership in the Internazionale movement in Romagna",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Francesco Piccinini",
+                "type": "person"
+              },
+              {
+                "name": "Erminio Pescatori",
+                "type": "person"
+              },
+              {
+                "name": "Celso Ceretti",
+                "type": "person"
+              },
+              {
+                "name": "Internazionale",
+                "type": "organization"
+              },
+              {
+                "name": "Lodovico Nabruzzi",
+                "type": "person"
+              },
+              {
+                "name": "Garibaldi",
+                "type": "person"
+              },
+              {
+                "name": "Romagna",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "shift in leadership",
+                "goal": "opposition to Garibaldi's unification attempt and promotion of internazionalismo",
+                "actors": [
+                  "Andrea Costa",
+                  "Lodovico Nabruzzi"
+                ],
+                "patients": [
+                  "Erminio Pescatori",
+                  "Celso Ceretti"
+                ],
+                "date": {
+                  "startDate": null,
+                  "endDate": null
+                },
+                "location": [
+                  {
+                    "label": "Romagna",
+                    "description": "location of diffusion of socialist movements"
+                  }
+                ],
+                "consequence": "emergence of new leaders, diffusion of internazionalismo in Romagna"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 6,
+    "paragraphtext": "Il congresso di Bologna degli internazionalisti emiliani e romagnoli si esprime in favore delle posizioni di Bakunin, mentre si allacciano contatti con il gruppo napoletano di Carlo Cafiero e da parte di Costa e di altri giovani si oppone un netto rifiuto al tentativo di unificazione delle forze democratiche, avviato da Garibaldi e sostenuto principalmente dall'internazionalista garibaldino Ceretti.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Il congresso di Bologna degli internazionalisti emiliani e romagnoli si esprime in favore delle posizioni di Bakunin, mentre si allacciano contatti con il gruppo napoletano di Carlo Cafiero e da parte di Costa e di altri giovani si oppone un netto rifiuto al tentativo di unificazione delle forze democratiche, avviato da Garibaldi e sostenuto principalmente dall'internazionalista garibaldino Ceretti.",
+        "data": {
+          "description": "Congress of Bologna and opposition to unification of democratic forces",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Carlo Cafiero",
+                "type": "person"
+              },
+              {
+                "name": "Garibaldi",
+                "type": "person"
+              },
+              {
+                "name": "Ceretti",
+                "type": "person"
+              },
+              {
+                "name": "internazionalista garibaldino",
+                "type": "organization"
+              },
+              {
+                "name": "Emilian-Romagnol section",
+                "type": "organization"
+              },
+              {
+                "name": "democratic forces led by Garibaldi",
+                "type": "organization"
+              },
+              {
+                "name": "Bologna",
+                "type": "location"
+              },
+              {
+                "name": "Naples",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "congress and opposition",
+                "goal": "expression of support for Bakunin's positions and opposition to unification of democratic forces",
+                "actors": [
+                  "Andrea Costa",
+                  "Internazionalisti Emiliani-Romagnoli",
+                  "Carlo Cafiero"
+                ],
+                "patients": [
+                  "Garibaldi",
+                  "Democratic forces led by Garibaldi"
+                ],
+                "date": {
+                  "startDate": "01/01/1872",
+                  "endDate": "31/12/1872"
+                },
+                "location": [
+                  {
+                    "label": "Bologna",
+                    "description": "location where congress took place"
+                  }
+                ],
+                "consequence": "Support expressed for Bakunin's positions amidst attempts at unifying democratic forces in Italy"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 7,
+    "paragraphtext": "Intensissima è l'attività sviluppata da Costa a partire da questo momento: segretario del congresso costitutivo della Federazione italiana dell'Internazionale presieduto da Cafiero (Rimini, maggio 1872) e come tale tra i protagonisti del distacco dal consiglio generale dell'Internazionale guidato da Marx e da Engels, Costa viene eletto segretario della commissione di corrispondenza della Federazione, si dedica a un'infaticabile opera di propaganda e di organizzazione di tipo cospirativo, e nel mese di settembre partecipa al congresso \"antiautoritario\" di Saint-Imier, al termine del quale si trattiene qualche tempo in Svizzera con Bakunin.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Intensissima è l'attività sviluppata da Costa a partire da questo momento: segretario del congresso costitutivo della Federazione italiana dell'Internazionale presieduto da Cafiero (Rimini, maggio 1872) e come tale tra i protagonisti del distacco dal consiglio generale dell'Internazionale guidato da Marx e da Engels, Costa viene eletto segretario della commissione di corrispondenza della Federazione, si dedica a un'infaticabile opera di propaganda e di organizzazione di tipo cospirativo, e nel mese di settembre partecipa al congresso \"antiautoritario\" di Saint-Imier, al termine del quale si trattiene qualche tempo in Svizzera con Bakunin.",
+        "data": {
+          "description": "Founding of the Federazione italiana dell'Internazionale and participation in the antiautoritario congress",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Carlo Cafiero",
+                "type": "person"
+              },
+              {
+                "name": "Karl Marx",
+                "type": "person"
+              },
+              {
+                "name": "Friedrich Engels",
+                "type": "person"
+              },
+              {
+                "name": "Mikhail Bakunin",
+                "type": "person"
+              },
+              {
+                "name": "Federazione italiana dell'Internazionale",
+                "type": "organization"
+              },
+              {
+                "name": "Rimini, Italy",
+                "type": "location"
+              },
+              {
+                "name": "Saint-Imier, Svizzera",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "founding of the Federazione italiana dell'Internazionale and participation in the antiautoritario congress",
+                "goal": "establishment of a socialist organization and opposition to authoritarianism",
+                "actors": [
+                  "Andrea Costa",
+                  "Carlo Cafiero",
+                  "Mikhail Bakunin"
+                ],
+                "patients": [
+                  "Karl Marx",
+                  "Friedrich Engels",
+                  "consiglio generale dell'Internazionale"
+                ],
+                "date": {
+                  "startDate": "01/05/1872",
+                  "endDate": "30/09/1872"
+                },
+                "location": [
+                  {
+                    "label": "Rimini",
+                    "description": "location where congress took place"
+                  },
+                  {
+                    "label": "Saint-Imier, Svizzera",
+                    "description": "location where congress took place"
+                  }
+                ],
+                "consequence": "establishment of the Federazione italiana dell'Internazionale and growth of anarchist movement"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 8,
+    "paragraphtext": "Organizza, agli inizi del 1873, il congresso della Federazione italiana e, arrestato, dichiara fieramente di appartenere all'Internazionale, di condividerne i fini e di essere pronto ad affrontarne le conseguenze.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Organizza, agli inizi del 1873, il congresso della Federazione italiana e, arrestato, dichiara fieramente di appartenere all'Internazionale, di condividerne i fini e di essere pronto ad affrontarne le conseguenze.",
+        "data": {
+          "description": "Andrea Costa's organization of the congress of the Federazione italiana and declaration of affiliation with the Internazionale",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Federazione italiana",
+                "type": "organization"
+              },
+              {
+                "name": "Internazionale",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "congress organization and declaration of affiliation",
+                "goal": "strengthening ties with the Internazionale and promoting organizational goals",
+                "actors": [
+                  "Andrea Costa",
+                  "Federazione italiana"
+                ],
+                "patients": [
+                  "Internazionale"
+                ],
+                "date": {
+                  "startDate": "01/01/1873",
+                  "endDate": null
+                },
+                "location": [
+                  {
+                    "label": "Italy",
+                    "description": "country where the congress took place"
+                  }
+                ],
+                "consequence": null
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 9,
+    "paragraphtext": "Rilasciato il 20 luglio 1873 è presente alla fondazione della Federazione romagnola dell'Internazionale; poco dopo partecipa a quella della Federazione umbro-marchigiana (che anche in seguito ne avrebbe subito l'influenza: a Iesi e a Fabriano, tra l'altro, Costa pubblica la prima serie del periodico 'abIl Martello'bb).",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Rilasciato il 20 luglio 1873 è presente alla fondazione della Federazione romagnola dell'Internazionale; poco dopo partecipa a quella della Federazione umbro-marchigiana (che anche in seguito ne avrebbe subito l'influenza: a Iesi e a Fabriano, tra l'altro, Costa pubblica la prima serie del periodico 'abIl Martello'bb).",
+        "data": {
+          "description": "Andrea Costa's participation in the foundation of the Federazione romagnola and umbro-marchigiana of the Internazionale",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Federazione italiana",
+                "type": "organization"
+              },
+              {
+                "name": "Federazione romagnola dell'Internazionale",
+                "type": "organization"
+              },
+              {
+                "name": "Federazione umbro-marchigiana",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "foundation of organizations",
+                "goal": "unification and collaboration of socialist movements",
+                "actors": [
+                  "Andrea Costa",
+                  "Federazione italiana"
+                ],
+                "patients": [
+                  "Federazione romagnola dell'Internazionale",
+                  "Federazione umbro-marchigiana"
+                ],
+                "date": {
+                  "startDate": "20/07/1873",
+                  "endDate": null
+                },
+                "location": [
+                  
+                ],
+                "consequence": "success"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 10,
+    "paragraphtext": "Nel settembre 1873 è a Ginevra e partecipa al VI Congresso (bakuninista) dell'Internazionale; eletto alla presidenza, Costa ha una parte di rilievo, sottolineando come prioritaria l'esigenza dell'azione rispetto ai problemi teorici, e opponendosi vivacemente alle tendenze \"operaistiche\" presenti nell'Internazionale, all'interno della quale non dovevano esserci secondo lui \"distinzioni classistiche\".",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Nel settembre 1873 è a Ginevra e partecipa al VI Congresso (bakuninista) dell'Internazionale; eletto alla presidenza, Costa ha una parte di rilievo, sottolineando come prioritaria l'esigenza dell'azione rispetto ai problemi teorici, e opponendosi vivacemente alle tendenze \"operaistiche\" presenti nell'Internazionale, all'interno della quale non dovevano esserci secondo lui \"distinzioni classistiche\".",
+        "data": {
+          "description": "Andrea Costa's participation in the VI Congresso of the Internazionale",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Bakunin",
+                "type": "person"
+              },
+              {
+                "name": "Internazionale",
+                "type": "organization"
+              },
+              {
+                "name": "Ginevra",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "political congress",
+                "goal": "emphasize action over theory and oppose certain tendencies",
+                "actors": [
+                  "Andrea Costa",
+                  "Bakunin"
+                ],
+                "patients": [
+                  "Internazionale"
+                ],
+                "date": {
+                  "startDate": "01/09/1873",
+                  "endDate": "30/09/1873"
+                },
+                "location": [
+                  {
+                    "label": "Ginevra",
+                    "description": "city where Andrea Costa lived"
+                  }
+                ],
+                "consequence": "emphasis on action over theory, opposition to certain tendencies within the organization"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 11,
+    "paragraphtext": "Il 1874, anno di grave crisi economica, contrassegnato da un diffuso stato di esasperazione popolare e da numerose agitazioni specie contro la tassa sul macinato, è prescelto dagli internazionalisti italiani per l'attuazione del loro primo tentativo insurrezionale. Costa è il principale organizzatore del moto, che avrebbe dovuto avere come epicentro Bologna e vedere la partecipazione di Bakunin in persona. Ma, non adeguatamente organizzato, privo dell'atteso appoggio popolare, e preventivamente controllato dalla polizia, il tentativo fallisce miseramente: Costa viene arrestato ancor prima dell'inizio e la sparuta colonna degli internazionalisti romagnoli in marcia su Bologna al comando di Antonio Cornacchia viene catturata senza colpo ferire, mentre Bakunin riesce a dileguarsi, in incognito come era giunto.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Il 1874, anno di grave crisi economica, contrassegnato da un diffuso stato di esasperazione popolare e da numerose agitazioni specie contro la tassa sul macinato, è prescelto dagli internazionalisti italiani per l'attuazione del loro primo tentativo insurrezionale. Costa è il principale organizzatore del moto, che avrebbe dovuto avere come epicentro Bologna e vedere la partecipazione di Bakunin in persona. Ma, non adeguatamente organizzato, privo dell'atteso appoggio popolare, e preventivamente controllato dalla polizia, il tentativo fallisce miseramente: Costa viene arrestato ancor prima dell'inizio e la sparuta colonna degli internazionalisti romagnoli in marcia su Bologna al comando di Antonio Cornacchia viene catturata senza colpo ferire, mentre Bakunin riesce a dileguarsi, in incognito come era giunto.",
+        "data": {
+          "description": "Il tentativo insurrezionale degli internazionalisti italiani guidati da Andrea Costa nel 1874",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Bakunin",
+                "type": "person"
+              },
+              {
+                "name": "Antonio Cornacchia",
+                "type": "person"
+              },
+              {
+                "name": "Internazionalisti italiani",
+                "type": "organization"
+              },
+              {
+                "name": "Polizia",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "insurrezione",
+                "goal": "cambiamento politico",
+                "actors": [
+                  "Andrea Costa",
+                  "Bakunin",
+                  "Antonio Cornacchia",
+                  "Internazionalisti italiani"
+                ],
+                "patients": [
+                  "Polizia"
+                ],
+                "date": {
+                  "startDate": "1874",
+                  "endDate": "1874"
+                },
+                "location": [
+                  {
+                    "label": "Bologna, Romagna",
+                    "description": "Luogo dell'insurrezione"
+                  }
+                ],
+                "consequence": "fallimento dell'insurrezione"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 12,
+    "paragraphtext": "Il fallimento del moto, seguito da numerosi arresti e persecuzioni poliziesche, provoca la paralisi del movimento internazionalista; Costa rimane in carcere per diciannove mesi, in attesa del processo che viene celebrato solo nel marzo 1876. Accusati di aver costituito una \"associazione di malfattori\", egli e i suoi compagni riescono a suscitare nel corso del processo un forte moto di simpatia nell'opinione pubblica; grazie al loro contegno, alle testimonianze di personalità come Carducci e Aurelio Saffi e alla brillante difesa dell'avvocato democratico Giuseppe Ceneri, vengono infine assolti. L'assoluzione di Costa e dei suoi compagni crea le condizioni per una ripresa del movimento, favorita anche dal clima politico contrassegnato dalla caduta della Destra.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Il fallimento del moto, seguito da numerosi arresti e persecuzioni poliziesche, provoca la paralisi del movimento internazionalista; Costa rimane in carcere per diciannove mesi, in attesa del processo che viene celebrato solo nel marzo 1876. Accusati di aver costituito una \"associazione di malfattori\", egli e i suoi compagni riescono a suscitare nel corso del processo un forte moto di simpatia nell'opinione pubblica; grazie al loro contegno, alle testimonianze di personalità come Carducci e Aurelio Saffi e alla brillante difesa dell'avvocato democratico Giuseppe Ceneri, vengono infine assolti. L'assoluzione di Costa e dei suoi compagni crea le condizioni per una ripresa del movimento, favorita anche dal clima politico contrassegnato dalla caduta della Destra.",
+        "data": {
+          "description": "Andrea Costa's trial and acquittal",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Giuseppe Ceneri",
+                "type": "person"
+              },
+              {
+                "name": "Carducci",
+                "type": "person"
+              },
+              {
+                "name": "Aurelio Saffi",
+                "type": "person"
+              },
+              {
+                "name": "internazionalisti movement",
+                "type": "organization"
+              },
+              {
+                "name": "Italian government",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "trial and acquittal",
+                "goal": "acquittal of Andrea Costa",
+                "actors": [
+                  "Andrea Costa"
+                ],
+                "patients": [
+                  "Italian government"
+                ],
+                "date": {
+                  "startDate": "01/03/1876",
+                  "endDate": "31/03/1876"
+                },
+                "location": [
+
+                ],
+                "consequence": ""
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 13,
+    "paragraphtext": "Nel 1877 Costa non disapprova apertamente il moto di San Lupo guidato da Cafiero, Errico Malatesta e Pietro Cesare Ceccarelli, ma non vi prende parte. Inizia una nuova ondata di persecuzioni che si abbatte sul movimento internazionalista, disgregandone l'organizzazione.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Nel 1877 Costa non disapprova apertamente il moto di San Lupo guidato da Cafiero, Errico Malatesta e Pietro Cesare Ceccarelli, ma non vi prende parte. Inizia una nuova ondata di persecuzioni che si abbatte sul movimento internazionalista, disgregandone l'organizzazione.",
+        "data": {
+          "description": "Andrea Costa's stance on the moto di San Lupo",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Cafiero",
+                "type": "person"
+              },
+              {
+                "name": "Errico Malatesta",
+                "type": "person"
+              },
+              {
+                "name": "Pietro Cesare Ceccarelli",
+                "type": "person"
+              },
+              {
+                "name": "Internazionalista movement",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "moto di San Lupo",
+                "goal": "",
+                "actors": [
+                  "Cafiero",
+                  "Errico Malatesta",
+                  "Pietro Cesare Ceccarelli"
+                ],
+                "patients": [
+                  "Andrea Costa",
+                  "Internazionalista movement"
+                ],
+                "date": {
+                  "startDate": "1877",
+                  "endDate": "1877"
+                },
+                "location": [
+                  {
+                    "label": "San Lupo",
+                    "description": "location associated with the moto di San Lupo."
+                  }
+                ],
+                "consequence": null
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 14,
+    "paragraphtext": "Il 5 agosto 1877 nasce a Bologna da Violetta Dall'Alpi il figlio Andreino (1877-1937) e subito dopo Costa si rifugia in Svizzera per sfuggire all'arresto.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Il 5 agosto 1877 nasce a Bologna da Violetta Dall'Alpi il figlio Andreino (1877-1937) e subito dopo Costa si rifugia in Svizzera per sfuggire all'arresto.",
+        "data": {
+          "description": "Andrea Costa's refuge in Svizzera",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Svizzera",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "taking refuge",
+                "goal": "taking refuge",
+                "actors": [],
+                "patients": [
+                  "Andrea Costa"
+                ],
+                "date": {
+                  "startDate": null,
+                  "endDate": null
+                },
+                "location": [
+                  {
+                    "label": "Svizzera",
+                    "description": "refuge for Andrea Costa."
+                  }
+                ],
+                "consequence": "Andrea Costa escaped arrest"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 16,
+    "paragraphtext": "Tra le cause dell'evoluzione politica di Costa determinante è il contatto con l'ambiente del socialismo internazionale. In quest'ambito deve essere sottolineata l'importanza del suo soggiorno in Francia a partire dalla fine del 1877 e dei suoi contatti con il socialismo francese (in particolare con Jules Guesde).",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Tra le cause dell'evoluzione politica di Costa determinante è il contatto con l'ambiente del socialismo internazionale. In quest'ambito deve essere sottolineata l'importanza del suo soggiorno in Francia a partire dalla fine del 1877 e dei suoi contatti con il socialismo francese (in particolare con Jules Guesde).",
+        "data": {
+          "description": "Andrea Costa's contact with international socialism environment in France",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Jules Guesde",
+                "type": "person"
+              },
+              {
+                "name": "Socialismo internazionale",
+                "type": "organization"
+              },
+              {
+                "name": "France",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "contact and collaboration between socialists from different countries, specifically Italy and France.",
+                "goal": "strengthening of the socialist movement through international cooperation.",
+                "actors": [
+                  "Andrea Costa",
+                  "Jules Guesde"
+                ],
+                "patients": [],
+                "date": {
+                  "startDate": "1877-12-31",
+                  "endDate": "1877-12-31"
+                },
+                "location": [
+                  {
+                    "label": "France",
+                    "description": "country where Andrea Costa made contact with French socialism."
+                  }
+                ],
+                "consequence": "Establishment of relationships between Italian and French socialist movements."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 17,
+    "paragraphtext": "Arrestato e incarcerato a Parigi (marzo 1878), ha modo di operare in carcere un approfondito ripensamento; dopo la sua liberazione (giugno 1879) allaccia rapporti con l'evoluzionista Beno'eet Malon, che grande parte aveva avuto nel distacco delle organizzazioni italiane dal bakuninismo.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Arrestato e incarcerato a Parigi (marzo 1878), ha modo di operare in carcere un approfondito ripensamento; dopo la sua liberazione (giugno 1879) allaccia rapporti con l'evoluzionista Beno'eet Malon, che grande parte aveva avuto nel distacco delle organizzazioni italiane dal bakuninismo.",
+        "data": {
+          "description": "Andrea Costa's political activity and interactions in Paris",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Benoît Malon",
+                "type": "person"
+              },
+              {
+                "name": "Socialisti",
+                "type": "organization"
+              },
+              {
+                "name": "Paris",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "political collaboration and reflection",
+                "goal": null,
+                "actors": [
+                  "Andrea Costa",
+                  "Benoît Malon",
+                  "Socialisti"
+                ],
+                "patients": [
+                  "Andrea Costa"
+                ],
+                "date": {
+                  "startDate": "1878-03-01",
+                  "endDate": "1879-06-01"
+                },
+                "location": [
+                  {
+                    "label": "Paris",
+                    "description": "city in France where Andrea Costa was active"
+                  }
+                ],
+                "consequence": "new connections within the socialist movement, period of reflection after incarceration and liberation"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 18,
+    "paragraphtext": "Questi in breve, gli antecedenti essenziali di quella che è stata chiamata la \"svolta\" di Costa: il 27 luglio 1879, su 'La Plebe' di Enrico Bignami, la sua lettera \"Ai miei amici di Romagna\" apre una nuova fase nella storia del socialismo italiano. Nel clima politico dell'inizio degli anni Ottanta, caratterizzato da numerose agitazioni per l'allargamento del suffragio, si adopera - con l'azione e con gli organi di stampa da lui stesso fondati in questo periodo: la 'Rivista internazionale del socialismo' e l''Avanti!' - per far passare i propri nuovi orientamenti nel movimento socialista.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Questi in breve, gli antecedenti essenziali di quella che è stata chiamata la \"svolta\" di Costa: il 27 luglio 1879, su 'La Plebe' di Enrico Bignami, la sua lettera \"Ai miei amici di Romagna\" apre una nuova fase nella storia del socialismo italiano. Nel clima politico dell'inizio degli anni Ottanta, caratterizzato da numerose agitazioni per l'allargamento del suffragio, si adopera - con l'azione e con gli organi di stampa da lui stesso fondati in questo periodo: la 'Rivista internazionale del socialismo' e l''Avanti!' - per far passare i propri nuovi orientamenti nel movimento socialista.",
+        "data": {
+          "description": "Andrea Costa's political activity in the Italian socialist movement",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Enrico Bignami",
+                "type": "person"
+              },
+              {
+                "name": "Benoît Malon",
+                "type": "person"
+              },
+              {
+                "name": "'La Plebe'",
+                "type": "organization"
+              },
+              {
+                "name": "'Rivista internazionale del socialismo'",
+                "type": "organization"
+              },
+              {
+                "name": "'Avanti!'",
+                "type": "organization"
+              },
+              {
+                "name": "Italian parliament",
+                "type": "organization"
+              },
+              {
+                "name": "estrema sinistra borghese",
+                "type": "organization"
+              },
+              {
+                "name": "Romagna",
+                "type": "location"
+              },
+              {
+                "name": "Ravenna",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "political activism and collaboration",
+                "goal": "advocating for participation in electoral competitions and legislative reforms",
+                "actors": [
+                  "Andrea Costa",
+                  "Enrico Bignami",
+                  "Benoît Malon",
+                  "'La Plebe'",
+                  "'Rivista internazionale del socialismo'",
+                  "'Avanti!'"
+                ],
+                "patients": [
+                  "estrema sinistra borghese",
+                  "Italian parliament"
+                ],
+                "date": {
+                  "startDate": null,
+                  "endDate": null
+                },
+                "location": [
+                  {
+                    "label": "Romagna",
+                    "description": "location of political activity"
+                  },
+                  {
+                    "label": "Ravenna",
+                    "description": "location of political activity"
+                  }
+                ],
+                "consequence": null
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 19,
+    "paragraphtext": "Favorevole alla partecipazione alle competizioni elettorali, Costa non giunge d'un colpo alla determinazione di entrare in parlamento, bensì dopo che tale questione sarà risolta positivamente alla conferenza dei socialisti romagnoli del 26 febbraio 1882. Eletto nel mese di ottobre alla Camera nel collegio di Ravenna, presta, primo deputato socialista, il suo giuramento e inizia un'attività parlamentare intensa, caratterizzata da una intransigenza sul terreno dei principi, ma al tempo stesso da una spregiudicata politica di alleanza con l'estrema sinistra borghese per l'attuazione di una legislazione sociale in Italia.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Favorevole alla partecipazione alle competizioni elettorali, Costa non giunge d'un colpo alla determinazione di entrare in parlamento, bensì dopo che tale questione sarà risolta positivamente alla conferenza dei socialisti romagnoli del 26 febbraio 1882. Eletto nel mese di ottobre alla Camera nel collegio di Ravenna, presta, primo deputato socialista, il suo giuramento e inizia un'attività parlamentare intensa, caratterizzata da una intransigenza sul terreno dei principi, ma al tempo stesso da una spregiudicata politica di alleanza con l'estrema sinistra borghese per l'attuazione di una legislazione sociale in Italia.",
+        "data": {
+          "description": "Andrea Costa's election and parliamentary activities",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Socialisti",
+                "type": "organization"
+              },
+              {
+                "name": "Estrema sinistra borghese",
+                "type": "organization"
+              },
+              {
+                "name": "Camera (Italian Parliament)",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "Election and parliamentary activities",
+                "goal": "Political change",
+                "actors": [
+                  "Andrea Costa",
+                  "Socialisti",
+                  "Estrema sinistra borghese"
+                ],
+                "patients": [
+                  "Camera (Italian Parliament)"
+                ],
+                "date": {
+                  "startDate": "01/10/1882",
+                  "endDate": ""
+                },
+                "location": [
+                  {
+                    "label": "Camera (Italian Parliament)",
+                    "description": "The Italian Parliament where Andrea Costa was elected."
+                  }
+                ],
+                "consequence": "Legislative collaboration and potential opposition"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 20,
+    "paragraphtext": "Triumviro del Fascio della democrazia assieme a Giovanni Bovio e Felice Cavallotti, Costa si spinge su questa via al di là di quanto molti dei suoi stessi compagni avrebbero desiderato, suscitando numerose critiche anche nel campo socialista.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Triumviro del Fascio della democrazia assieme a Giovanni Bovio e Felice Cavallotti, Costa si spinge su questa via al di là di quanto molti dei suoi stessi compagni avrebbero desiderato, suscitando numerose critiche anche nel campo socialista.",
+        "data": {
+          "description": "Andrea Costa's involvement in Fascio della democrazia",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Giovanni Bovio",
+                "type": "person"
+              },
+              {
+                "name": "Felice Cavallotti",
+                "type": "person"
+              },
+              {
+                "name": "Fascio della democrazia",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "involvement in political organization",
+                "goal": "political change",
+                "actors": [
+                  "Andrea Costa",
+                  "Giovanni Bovio",
+                  "Felice Cavallotti"
+                ],
+                "patients": [
+                  "Fascio della democrazia"
+                ],
+                "date": {
+                  "startDate": null,
+                  "endDate": null
+                },
+                "location": [
+
+                ],
+                "consequence": "opposition from socialist field"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 21,
+    "paragraphtext": "Della sua attività parlamentare (continuamente interrotta da arresti e periodi di esilio tra una elezione e l'altra) oltre a una presa di posizione in favore della gestione delle ferrovie da parte dello Stato e altre vicende diversamente significative, un aspetto va sottolineato per la sua rilevanza politica, anche ai fini dell'intero sviluppo del socialismo italiano: l'opposizione intransigente alle conquiste coloniali. Il grido di Costa non solo trova una larga risonanza immediata, ma diviene allora e nei decenni successivi la parola d'ordine del proletariato italiano contro l'imperialismo e la guerra. Infaticabile fu la campagna anticolonialista che, a partire da questo momento, Costa viene sviluppando nel parlamento e nel paese, e senza dubbio a lui si deve in misura preminente se l'opposizione alle imprese coloniali diviene patrimonio del proletariato italiano.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Della sua attività parlamentare (continuamente interrotta da arresti e periodi di esilio tra una elezione e l'altra) oltre a una presa di posizione in favore della gestione delle ferrovie da parte dello Stato e altre vicende diversamente significative, un aspetto va sottolineato per la sua rilevanza politica, anche ai fini dell'intero sviluppo del socialismo italiano: l'opposizione intransigente alle conquiste coloniali. Il grido di Costa non solo trova una larga risonanza immediata, ma diviene allora e nei decenni successivi la parola d'ordine del proletariato italiano contro l'imperialismo e la guerra. Infaticabile fu la campagna anticolonialista che, a partire da questo momento, Costa viene sviluppando nel parlamento e nel paese, e senza dubbio a lui si deve in misura preminente se l'opposizione alle imprese coloniali diviene patrimonio del proletariato italiano.",
+        "data": {
+          "description": "Andrea Costa's anticolonialist campaign",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Giovanni Bovio",
+                "type": "person"
+              },
+              {
+                "name": "Felice Cavallotti",
+                "type": "person"
+              },
+              {
+                "name": "Partito socialista rivoluzionario italiano",
+                "type": "organization"
+              },
+              {
+                "name": "Italian parliament",
+                "type": "organization"
+              },
+              {
+                "name": "movimento operaio italiano",
+                "type": "organization"
+              },
+              {
+                "name": "Rimini",
+                "type": "location"
+              },
+              {
+                "name": "Forlì",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "anticolonialist campaign",
+                "goal": "opposition to colonial conquests",
+                "actors": [
+                  "Andrea Costa"
+                ],
+                "patients": [
+                  "Partito socialista rivoluzionario italiano",
+                  "Italian parliament"
+                ],
+                "date": {
+                  "startDate": "",
+                  "endDate": ""
+                },
+                "location": [
+                  {
+                    "label": "Rimini",
+                    "description": "location of convegno"
+                  },
+                  {
+                    "label": "Forlì",
+                    "description": "location of convegno"
+                  }
+                ],
+                "consequence": "support from proletariat, criticism from companions and other socialists"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 22,
+    "paragraphtext": "Intanto, coerentemente con le proprie premesse, Costa non esaurisce nell'attività parlamentare il proprio campo d'azione, dedicandosi fin dal 1880 all'obiettivo di costituire un partito rivoluzionario in cui si raccolgano tutte le tendenze del movimento operaio italiano. Prima tappa di questo tentativo è, nell'agosto 1881, il convegno di Rimini delle organizzazioni a lui vicine, dal quale nasce il Partito socialista rivoluzionario italiano (ciò che formalmente accadde al congresso di Forlì del 1884), ma, nonostante i suoi sforzi, esso rimane sempre di fatto una forza politica a base poco più che regionale.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Intanto, coerentemente con le proprie premesse, Costa non esaurisce nell'attività parlamentare il proprio campo d'azione, dedicandosi fin dal 1880 all'obiettivo di costituire un partito rivoluzionario in cui si raccolgano tutte le tendenze del movimento operaio italiano. Prima tappa di questo tentativo è, nell'agosto 1881, il convegno di Rimini delle organizzazioni a lui vicine, dal quale nasce il Partito socialista rivoluzionario italiano (ciò che formalmente accadde al congresso di Forlì del 1884), ma, nonostante i suoi sforzi, esso rimane sempre di fatto una forza politica a base poco più che regionale.",
+        "data": {
+          "type": "POLITICS",
+          "description": "Andrea Costa's attempt to constitute a revolutionary party in Italy",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Partito socialista rivoluzionario italiano",
+                "type": "organization"
+              },
+              {
+                "name": "Rimini",
+                "type": "location"
+              },
+              {
+                "name": "Forlì",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "constituting a revolutionary party",
+                "goal": "unifying Italian worker's movement and achieving political change",
+                "actors": [
+                  "Andrea Costa"
+                ],
+                "patients": [
+                  "Partito socialista rivoluzionario italiano"
+                ],
+                "date": {
+                  "startDate": "1880-01-01",
+                  "endDate": "1884-01-01"
+                },
+                "location": [
+                  {
+                    "label": "Rimini",
+                    "description": "meeting location in Rimini, Italy"
+                  },
+                  {
+                    "label": "Forlì",
+                    "description": "conference location in Forlì, Italy where Partito socialista rivoluzionario italiano was formally established"
+                  }
+                ],
+                "consequence": "The formal establishment of the Partito socialista rivoluzionario italiano in 1884."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 23,
+    "paragraphtext": "Costa scrive nel 1880 il Sogno, una visione utopistica della sua Imola, redenta in futuro dal socialismo; pubblicato e ripubblicato in opuscolo, il Sogno esprime una volta di più le attese e le speranze di liberazione del rivoluzionario proprio alle soglie di un'attività pratica condotta anche attraverso le istituzioni, quasi a sottolineare la non estraneità dei due momenti dell'impegno sociale: quello immediato, della resistenza, del sollievo ai più deboli, della ricerca del lavoro per i braccianti disoccupati, e quello ideale dell'avvenire.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Costa scrive nel 1880 il Sogno, una visione utopistica della sua Imola, redenta in futuro dal socialismo; pubblicato e ripubblicato in opuscolo, il Sogno esprime una volta di più le attese e le speranze di liberazione del rivoluzionario proprio alle soglie di un'attività pratica condotta anche attraverso le istituzioni, quasi a sottolineare la non estraneità dei due momenti dell'impegno sociale: quello immediato, della resistenza, del sollievo ai più deboli, della ricerca del lavoro per i braccianti disoccupati, e quello ideale dell'avvenire.",
+        "data": {
+          "description": "Andrea Costa's utopian vision for Imola through socialism",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Partito socialista rivoluzionario italiano",
+                "type": "organization"
+              },
+              {
+                "name": "Imola",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "writing of utopian vision",
+                "goal": "spread of socialist ideals and redemption of Imola through socialism",
+                "actors": [
+                  "Andrea Costa"
+                ],
+                "patients": [
+                  "Partito socialista rivoluzionario italiano"
+                ],
+                "date": {
+                  "startDate": "1880",
+                  "endDate": "1880"
+                },
+                "location": [
+                  {
+                    "label": "Imola",
+                    "description": "city in Italy where Andrea Costa's utopian vision is set"
+                  }
+                ],
+                "consequence": "potential influence on like-minded individuals or groups, contribution to the socialist movement"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 24,
+    "paragraphtext": "Negli anni '80 si collocano i ripetuti contatti allacciati da Costa con gli operaisti milanesi, e il progressivo avvicinamento tra il suo partito e il Partito operaio italiano, di cui, da parte dei romagnoli, una tappa importante è rappresentata dal congresso di Mantova del 1886. A questo scopo, Costa abbandona l'alleanza con la sinistra borghese nel Fascio della democrazia (motivo di dissenso con gli operaisti). Il tentativo costiano di promuovere l'unificazione delle forze operaie e socialiste italiane (compresi gli anarchici) non è destinato a sortire effetti concreti, ma la scelta di Mantova come sede del congresso del suo partito non è solo frutto di un tentativo di avvicinamento al Partito operaio italiano; Mantova è anche il centro di un forte movimento contadino di ispirazione socialista che due anni prima aveva dato vita al grande moto di \"La boje!\". Costa si dedica allo sviluppo del movimento cooperativo e di resistenza nelle campagne, legato in particolare ai braccianti di Ravenna. La fisionomia popolare del socialismo romagnolo derivava in gran parte dalla presenza di una cospicua componente bracciantile e contadina.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Negli anni '80 si collocano i ripetuti contatti allacciati da Costa con gli operaisti milanesi, e il progressivo avvicinamento tra il suo partito e il Partito operaio italiano, di cui, da parte dei romagnoli, una tappa importante è rappresentata dal congresso di Mantova del 1886. A questo scopo, Costa abbandona l'alleanza con la sinistra borghese nel Fascio della democrazia (motivo di dissenso con gli operaisti). Il tentativo costiano di promuovere l'unificazione delle forze operaie e socialiste italiane (compresi gli anarchici) non è destinato a sortire effetti concreti, ma la scelta di Mantova come sede del congresso del suo partito non è solo frutto di un tentativo di avvicinamento al Partito operaio italiano; Mantova è anche il centro di un forte movimento contadino di ispirazione socialista che due anni prima aveva dato vita al grande moto di \"La boje!\". Costa si dedica allo sviluppo del movimento cooperativo e di resistenza nelle campagne, legato in particolare ai braccianti di Ravenna. La fisionomia popolare del socialismo romagnolo derivava in gran parte dalla presenza di una cospicua componente bracciantile e contadina.",
+        "data": {
+          "description": "Andrea Costa's political activity and unification of Italian socialist forces",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Partito socialista rivoluzionario di Romagna",
+                "type": "organization"
+              },
+              {
+                "name": "Partito operaio italiano",
+                "type": "organization"
+              },
+              {
+                "name": "Sinistra borghese",
+                "type": "organization"
+              },
+              {
+                "name": "Anarchici",
+                "type": "organization"
+              },
+              {
+                "name": "Mantova",
+                "type": "location"
+              },
+              {
+                "name": "Milano",
+                "type": "location"
+              },
+              {
+                "name": "Romagna",
+                "type": "location"
+              },
+              {
+                "name": "Ravenna",
+                "type": "location"
+              },
+              {
+                "name": "Emilia-Romagna",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "unification of Italian socialist forces through his party's congress",
+                "goal": "unification of Italian socialist forces through his party's congress",
+                "actors": [
+                  "Andrea Costa",
+                  "Partito socialista rivoluzionario di Romagna"
+                ],
+                "patients": [
+                  "Anarchici"
+                ],
+                "date": {
+                  "startDate": "01/01/1880",
+                  "endDate": "31/12/1886"
+                },
+                "location": [
+                  {
+                    "label": "Mantova",
+                    "description": "city where congress took place"
+                  },
+                  {
+                    "label": "Milano",
+                    "description": "city where interactions occurred"
+                  },
+                  {
+                    "label": "Romagna",
+                    "description": "region where cooperative movement developed among braccianti"
+                  },
+                  {
+                    "label": "Ravenna",
+                    "description": "city involved in interactions among participants"
+                  },
+                  {
+                    "label": "Emilia-Romagna",
+                    "description": "region involved"
+                  }
+                ],
+                "consequence": "development of cooperative movement among braccianti in Romagna and progressive approaching between Partito socialista rivoluzionario di Romagna and Partito operaio italiano."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 25,
+    "paragraphtext": "L'immagine più fedele ed essenziale di Costa come capo rivoluzionario si trova nei documenti che ci parlano della sua partecipazione alle lotte, fra i braccianti di Ravenna, i risaioli del Bolognese; del modo come egli concepiva i doveri dell'eletto del popolo, come egli sapeva interpretare la sostanza nuova del legame che unisce il capo socialista alle masse. In questo legame di concorde intelligenza e di fedeltà sarà la radice del suo prestigio e del suo successo; qui è anche, principalmente, la misura del valore della sua opera. Dal punto di vista di questo rapporto di massa, infine (ma nel quadro debbono aggiungersi l'attiva presenza di Costa a Roma nelle lotte contro la disoccupazione e per lo sviluppo delle organizzazioni degli operai edili della capitale), deve essere anche vista per una buona parte la stessa politica amministrativa di Costa: la parola d'ordine \"Impadroniamoci dei comuni!\" ebbe infatti alla sua origine anche i primi successi cooperativi ed elettorali dei lavoratori nell'Emilia-Romagna. L'interesse verso le amministrazioni locali, e in particolare i comuni, è uno degli aspetti più importanti e originali verso i quali Costa indirizza l'attività del Partito socialista rivoluzionario di Romagna. Il limitato suffragio, non solo politico ma anche amministrativo, sancito dalle leggi unificatrici, aveva contribuito alla affermazione di criteri rigorosamente astensionistici anche in questo campo.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "L'immagine più fedele ed essenziale di Costa come capo rivoluzionario si trova nei documenti che ci parlano della sua partecipazione alle lotte, fra i braccianti di Ravenna, i risaioli del Bolognese; del modo come egli concepiva i doveri dell'eletto del popolo, come egli sapeva interpretare la sostanza nuova del legame che unisce il capo socialista alle masse. In questo legame di concorde intelligenza e di fedeltà sarà la radice del suo prestigio e del suo successo; qui è anche, principalmente, la misura del valore della sua opera. Dal punto di vista di questo rapporto di massa, infine (ma nel quadro debbono aggiungersi l'attiva presenza di Costa a Roma nelle lotte contro la disoccupazione e per lo sviluppo delle organizzazioni degli operai edili della capitale), deve essere anche vista per una buona parte la stessa politica amministrativa di Costa: la parola d'ordine \"Impadroniamoci dei comuni!\" ebbe infatti alla sua origine anche i primi successi cooperativi ed elettorali dei lavoratori nell'Emilia-Romagna. L'interesse verso le amministrazioni locali, e in particolare i comuni, è uno degli aspetti più importanti e originali verso i quali Costa indirizza l'attività del Partito socialista rivoluzionario di Romagna. Il limitato suffragio, non solo politico ma anche amministrativo, sancito dalle leggi unificatrici, aveva contribuito alla affermazione di criteri rigorosamente astensionistici anche in questo campo.",
+        "data": {
+          "description": "Andrea Costa's leadership in promoting unificazione delle forze operaie and socialiste italiane",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Braccianti di Ravenna",
+                "type": "group"
+              },
+              {
+                "name": "Risaioli del Bolognese",
+                "type": "group"
+              },
+              {
+                "name": "Operai edili della capitale",
+                "type": "group"
+              },
+              {
+                "name": "Partito socialista rivoluzionario di Romagna",
+                "type": "organization"
+              },
+              {
+                "name": "Partito operaio italiano",
+                "type": "organization"
+              },
+              {
+                "name": "Emilia-Romagna",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "promoting unificazione delle forze operaie and socialiste italiane",
+                "goal": "unification of Italian socialist forces",
+                "actors": [
+                  "Andrea Costa",
+                  "Partito socialista rivoluzionario di Romagna"
+                ],
+                "patients": [
+                  "Braccianti di Ravenna",
+                  "Risaioli del Bolognese",
+                  "Operai edili della capitale",
+                  "Partito operaio italiano"
+                ],
+                "date": {
+                  "startDate": "1882-01-01",
+                  "endDate": null
+                },
+                "location": [
+                  {
+                    "label": "Emilia-Romagna",
+                    "description": "region in northern Italy"
+                  }
+                ],
+                "consequence": "unification of Italian socialist forces, increased political activity among labourers"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 26,
+    "paragraphtext": "Dopo la \"svolta\" e in misura ancora maggiore dopo la sua elezione alla Camera del 1882, Costa comincia a promuovere in Romagna una vasta agitazione che congiungeva la critica della gestione moderata dei comuni, particolarmente in fatto di lavori pubblici, istruzione, opere pie ecc., con la rivendicazione di una nuova legge comunale e provinciale che avesse alla propria base un suffragio più largamente esteso ai ceti popolari. Il comune era per Costa, come per numerosi altri socialisti italiani che avevano attraversato le sue stesse esperienze, \"la\" comune, e cioè la possibilità, certo utopisticamente ma fortemente e sinceramente sentita, di trasformare e ristrutturare dal basso la società, investendola nella sua cellula più elementare e vicina, per aggredire in essa i rapporti socialmente e politicamente dominanti.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Dopo la \"svolta\" e in misura ancora maggiore dopo la sua elezione alla Camera del 1882, Costa comincia a promuovere in Romagna una vasta agitazione che congiungeva la critica della gestione moderata dei comuni, particolarmente in fatto di lavori pubblici, istruzione, opere pie ecc., con la rivendicazione di una nuova legge comunale e provinciale che avesse alla propria base un suffragio più largamente esteso ai ceti popolari. Il comune era per Costa, come per numerosi altri socialisti italiani che avevano attraversato le sue stesse esperienze, \"la\" comune, e cioè la possibilità, certo utopisticamente ma fortemente e sinceramente sentita, di trasformare e ristrutturare dal basso la società, investendola nella sua cellula più elementare e vicina, per aggredire in essa i rapporti socialmente e politicamente dominanti.",
+        "data": {
+          "description": "Andrea Costa's promotion of agitazione in Romagna",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Socialisti Italiani",
+                "type": "organization"
+              },
+              {
+                "name": "Partito Socialista Rivoluzionario di Romagna",
+                "type": "organization"
+              },
+              {
+                "name": "Romagna",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "promozione di agitazione (promotion of agitation)",
+                "goal": "extension of suffragio to ceti popolari (promotion of popular suffrage)",
+                "actors": [
+                  "Andrea Costa",
+                  "Socialisti Italiani"
+                ],
+                "patients": [
+                  "ceti popolari (popular classes)"
+                ],
+                "date": {
+                  "startDate": "1882",
+                  "endDate": null
+                },
+                "location": [
+                  {
+                    "label": "Romagna",
+                    "description": "city where agitations occurred"
+                  }
+                ],
+                "consequence": null
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 27,
+    "paragraphtext": "Nell'ottobre 1889 la coalizione democratica vince le elezioni amministrative locali a Imola e Costa è eletto per la prima volta consigliere comunale e provinciale. Ricopre la carica di assessore comunale dal 1889 al 1893 ed è eletto sindaco nel novembre 1893 e nel giugno 1897 (carica a cui rinuncia in entrambe le occasioni). Sul finire degli anni Ottanta lo sviluppo del movimento operaio poneva ormai inderogabilmente sul tappeto il problema della creazione di un partito socialista. Era questo appunto l'obiettivo che Costa si era prefisso e che fino al 1886 aveva perseguito con parziali successi, eppure il congresso di Ravenna del Partito socialista rivoluzionario italiano (1890) mostrò che il socialismo romagnolo era ormai entrato in una fase di ripiegamento.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Nell'ottobre 1889 la coalizione democratica vince le elezioni amministrative locali a Imola e Costa è eletto per la prima volta consigliere comunale e provinciale. Ricopre la carica di assessore comunale dal 1889 al 1893 ed è eletto sindaco nel novembre 1893 e nel giugno 1897 (carica a cui rinuncia in entrambe le occasioni). Sul finire degli anni Ottanta lo sviluppo del movimento operaio poneva ormai inderogabilmente sul tappeto il problema della creazione di un partito socialista. Era questo appunto l'obiettivo che Costa si era prefisso e che fino al 1886 aveva perseguito con parziali successi, eppure il congresso di Ravenna del Partito socialista rivoluzionario italiano (1890) mostrò che il socialismo romagnolo era ormai entrato in una fase di ripiegamento.",
+        "data": {
+          "description": "Andrea Costa's political activity in Imola",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Coalizione Democratica",
+                "type": "organization"
+              },
+              {
+                "name": "Partito Socialista Rivoluzionario Italiano",
+                "type": "organization"
+              },
+              {
+                "name": "Imola",
+                "type": "location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "elections and political involvement",
+                "goal": "involvement in local politics",
+                "actors": [
+                  "Andrea Costa",
+                  "Coalizione Democratica"
+                ],
+                "patients": [
+                  "Partito Socialista Rivoluzionario Italiano"
+                ],
+                "date": {
+                  "startDate": "1889",
+                  "endDate": "1897"
+                },
+                "location": [
+                  {
+                    "label": "Imola",
+                    "description": "city where Andrea Costa is elected"
+                  }
+                ],
+                "consequence": "Andrea Costa's election as consigliere comunale and provinciale, assessore comunale, and sindaco"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 29,
+    "paragraphtext": "Dopo essere stato il più prestigioso dirigente dell'Internazionale in Italia, il protagonista di una svolta decisiva nella storia del movimento operaio, quale quella del 1879, quindi il primo deputato socialista e il capo del primo partito socialista operante nel paese, Costa svolge un ruolo di fatto marginale nelle vicende della nascita del Partito dei lavoratori italiani.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Dopo essere stato il più prestigioso dirigente dell'Internazionale in Italia, il protagonista di una svolta decisiva nella storia del movimento operaio, quale quella del 1879, quindi il primo deputato socialista e il capo del primo partito socialista operante nel paese, Costa svolge un ruolo di fatto marginale nelle vicende della nascita del Partito dei lavoratori italiani.",
+        "data": {
+          "description": "Andrea Costa's role in the Italian socialist movement",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Internazionale",
+                "type": "organization"
+              },
+              {
+                "name": "Partito dei lavoratori italiani",
+                "type": "organization"
+              },
+              {
+                "name": "Partito socialista italiano",
+                "type": "organization"
+              },
+              {
+                "name": "anarchici",
+                "type": "group"
+              }
+
+            ],
+            "actions": [
+              {
+                "action": "formation of Partito dei lavoratori italiani",
+                "goal": "establishment of a workers' party in Italy",
+                "actors": [
+                  "Andrea Costa",
+                  "Internazionale"
+                ],
+                "patients": [
+                  "Partito dei lavoratori italiani"
+                ],
+                "date": {
+                  "startDate": "1879",
+                  "endDate": "1879"
+                },
+                "location": [
+
+                ],
+                "consequence": "growth of the socialist movement in Italy"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 31,
+    "paragraphtext": "Partecipa e interviene nel 1907 al congresso di Stoccarda della II Internazionale, e nel 1909 viene eletto vice presidente di quella Camera, nella quale per primo aveva portato, 25 anni prima, la parola dei lavoratori, e che tante volte aveva votato l'autorizzazione a procedere nei suoi confronti.",
+    "events": [
+      {
+        "type": "POLITICS",
+        "text": "Partecipa e interviene nel 1907 al congresso di Stoccarda della II Internazionale, e nel 1909 viene eletto vice presidente di quella Camera, nella quale per primo aveva portato, 25 anni prima, la parola dei lavoratori, e che tante volte aveva votato l'autorizzazione a procedere nei suoi confronti.",
+        "data": {
+          "description": "Andrea Costa's participation in the II Internazionale",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "II Internazionale",
+                "type": "organization"
+              },
+              {
+                "name": "Stoccarda",
+                "type":"location"
+              }
+            ],
+            "actions": [
+              {
+                "action": "participation in congress",
+                "goal": "",
+                "actors": [
+                  "Andrea Costa"
+                ],
+                "patients": [
+                  "II Internazionale"
+                ],
+                "date": {
+                  "startDate": "1907",
+                  "endDate": null
+                },
+                "location": [
+                  {
+                    "label": "Stoccarda",
+                    "description": "location of the 1907 congress"
+                  }
+                ],
+                "consequence": "participation of Andrea Costa at the II Internazionale"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "POLITICS",
+        "text": "Partecipa e interviene nel 1907 al congresso di Stoccarda della II Internazionale, e nel 1909 viene eletto vice presidente di quella Camera, nella quale per primo aveva portato, 25 anni prima, la parola dei lavoratori, e che tante volte aveva votato l'autorizzazione a procedere nei suoi confronti.",
+        "data": {
+          "description": "Andrea Costa's election as vice president of the II Internazionale",
+          "properties": {
+            "entities": [
+              {
+                "name": "Andrea Costa",
+                "type": "person"
+              },
+              {
+                "name": "Camera (Italian Parliament)",
+                "type": "organization"
+              }
+            ],
+            "actions": [
+              {
+                "action": "election as vice president",
+                "goal": null,
+                "actors": [
+                  "Andrea Costa"
+                ],
+                "patients": [
+                ],
+                "date": {
+                  "startDate": "1909",
+                  "endDate": ""
+                },
+                "location": [],
+                "consequence": "election of Andrea Costa as vice president of the Camera (Italian parliament)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

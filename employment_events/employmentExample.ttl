@@ -1,0 +1,44 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/position/scrivano> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/corporatebody/agenzia_assicurativa_imolese> ;
+    rico:thigIsTargetOfRelation <http://example.org/positionHoldigRelation/Costa_scrivano_agenzia_assicurativa_imolese> ;
+    rico:name "scrivano" .
+
+<http://example.org/position/impiegato> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/corporatebody/agenzia_assicurativa_imolese> ;
+    rico:thigIsTargetOfRelation <http://example.org/positionHoldigRelation/Renzi_impiegato_agenzia_assicurativa_imolese> ;
+    rico:name "impiegato" .
+
+<http://example.org/positionHoldigRelation/Costa_scrivano_agenzia_assicurativa_imolese> a rico:PositionHoldingRelation ;
+    rico:relationHasTarget <http://example.org/position/scrivano> ;
+    rico:relationHasSource <http://example.org/person/Andrea_Costa> ;
+    rico:beginningDate "1870-12-15"^^xsd:date ;
+    rico:name "Andrea Costa scrivano presso l'Agenzia di assicurazioni imolese" .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+rico:thigIsSourceOfRelation <http://example.org/positionHoldigRelation/Costa_scrivano_agenzia_assicurativa_imolese> ;
+rico:hasOrHadWorkRelationWith <http://example.org/person/Paolo_Renzi> ;
+rico:name "Paolo Renzi" ..
+
+<http://example.org/corporatebody/agenzia_assicurativa_imolese> a rico:CorporateBody ;
+rico:agentHasOrHadLocation <http://example.org/place/Imola> ;
+rico:hasOrHadPosition  <http://example.org/position/scrivano> ;
+rico:hasOrHadPosition  <http://example.org/position/impiegato> ;
+rico:name "Compagnia di assicurazioni imolese" . 
+
+<http://example.org/place/Imola> a rico:Place ;
+rico:isOrWsLocationOfAgent <http://example.org/corporatebody/agenzia_assicurativa_imolese> ;
+rico:name "Imola".
+
+<http://example.org/person/Paolo_Renzi> a rico:Person ;
+rico:thigIsSourceOfRelation <http://example.org/positionHoldigRelation/Renzi_impiegato_agenzia_assicurativa_imolese> ;
+rico:hasOrHadWorkRelationWith <http://example.org/person/Andrea_Costa> .
+rico:name "Paolo Renzi"
+
+<http://example.org/positionHoldigRelation/Renzi_impiegato_agenzia_assicurativa_imolese> a rico:PositionHoldingRelation ;
+    rico:relationHasTarget <http://example.org/position/impiegato> ;
+    rico:relationHasSource <http://example.org/person/Paolo_Renzi> ;
+    rico:name "Paolo Renzi impiegato presso l'Agenzia di assicurazioni imolese" ..
+

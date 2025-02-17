@@ -1,0 +1,37 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_arrest_and_incarceration_in_paris_14 a rico:PerformanceRelation ;
+    rico:description "arrested individual" ;
+    rico:relationHasSource ex:activity_andrea_costas_arrest_and_incarceration_in_paris_14 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:french_authorities_andrea_costas_arrest_and_incarceration_in_paris_14 a rico:PerformanceRelation ;
+    rico:description "arresting authority" ;
+    rico:relationHasSource ex:activity_andrea_costas_arrest_and_incarceration_in_paris_14 ;
+    rico:relationHasTarget ex:french_authorities .
+
+ex:parigi_andrea_costas_arrest_and_incarceration_in_paris_14 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_parigi ;
+    rico:relationHasTarget ex:activity_andrea_costas_arrest_and_incarceration_in_paris_14 .
+
+ex:activity_type_arrest_and_incarceration a rico:ActivityType ;
+    rico:name "arrest and incarceration" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:french_authorities a rico:CorporateBody ;
+    rico:name "French authorities" .
+
+ex:place_parigi a rico:Place ;
+    rico:description "city in Francia where Andrea Costa was arrested" ;
+    rico:name "Parigi" .
+
+ex:activity_andrea_costas_arrest_and_incarceration_in_paris_14 a rico:Activity ;
+    rico:beginningDate "1878-03-01"^^xsd:date ;
+    rico:endDate "1878-03-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_arrest_and_incarceration ;
+    rico:name "Andrea Costa's arrest and incarceration in Paris" .
+

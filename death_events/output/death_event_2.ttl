@@ -1,0 +1,17 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/event/death_andrea_costa_2> a rico:Event ;
+    rico:description "Andrea Costa's death" ;
+    rico:hasOrHadParticipant <http://example.org/person/andrea_costa> ;
+    rico:name "Death of Andrea Costa" .
+
+<http://example.org/person/andrea_costa> a rico:Person ;
+    rico:hasDeathDate "1910-01-19"^^xsd:date ;
+    rico:hasDeathPlace <http://example.org/place/imola> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/place/imola> a rico:Place ;
+    rico:description "Ospedale di Imola" ;
+    rico:name "Imola" .
+

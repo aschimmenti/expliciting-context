@@ -1,0 +1,34 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#TeachingRelation/carducci_andrea_costa> a rico:TeachingRelation ;
+    rico:relationHasSource <http://example.org/#person/carducci> ;
+    rico:relationHasTarget <http://example.org/#person/andrea_costa> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_student_3> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1870-12-15"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/student_università_di_bologna_facoltà_di_filosofia_e_belle_lettere> .
+
+<http://example.org/#positionHoldingRelation/carducci_professor_3> a rico:PositionHoldingRelation ;
+    rico:relationHasSource <http://example.org/#person/carducci> ;
+    rico:relationHasTarget <http://example.org/#position/professor_università_di_bologna_facoltà_di_filosofia_e_belle_lettere> .
+
+<http://example.org/#position/professor_università_di_bologna_facoltà_di_filosofia_e_belle_lettere> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#institution/università_di_bologna_facoltà_di_filosofia_e_belle_lettere> ;
+    rico:name "professor" .
+
+<http://example.org/#position/student_università_di_bologna_facoltà_di_filosofia_e_belle_lettere> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#institution/università_di_bologna_facoltà_di_filosofia_e_belle_lettere> ;
+    rico:name "student" .
+
+<http://example.org/#institution/università_di_bologna_facoltà_di_filosofia_e_belle_lettere> a rico:CorporateBody ;
+    rico:corporateBodyType "university" ;
+    rico:name "Università di Bologna, facoltà di filosofia e belle lettere" .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/#person/carducci> a rico:Person ;
+    rico:name "Carducci" .
+

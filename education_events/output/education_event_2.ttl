@@ -1,0 +1,20 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_student_2> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1868-01-01"^^xsd:date ;
+    rico:endingDate "1870-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/student_liceo> .
+
+<http://example.org/#institution/liceo> a rico:CorporateBody ;
+    rico:corporateBodyType "school" ;
+    rico:name "liceo" .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/#position/student_liceo> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#institution/liceo> ;
+    rico:name "student" .
+

@@ -1,0 +1,69 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:PerformanceRelation ;
+    rico:description "commemorator" ;
+    rico:relationHasSource ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:bologna_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bologna ;
+    rico:relationHasTarget ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 .
+
+ex:francesco_piccinini_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:PerformanceRelation ;
+    rico:description "internazionalista being commemorated" ;
+    rico:relationHasSource ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 ;
+    rico:relationHasTarget ex:francesco_piccinini .
+
+ex:garibaldini_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:PerformanceRelation ;
+    rico:description "mentioned group" ;
+    rico:relationHasSource ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 ;
+    rico:relationHasTarget ex:garibaldini .
+
+ex:internazionalisti_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:PerformanceRelation ;
+    rico:description "organization that Costa has joined" ;
+    rico:relationHasSource ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 ;
+    rico:relationHasTarget ex:internazionalisti .
+
+ex:repubblicani_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:PerformanceRelation ;
+    rico:description "opposing group" ;
+    rico:relationHasSource ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 ;
+    rico:relationHasTarget ex:repubblicani .
+
+ex:romagna_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 .
+
+ex:activity_type_commemoration a rico:ActivityType ;
+    rico:name "commemoration" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:francesco_piccinini a rico:Person ;
+    rico:name "Francesco Piccinini" .
+
+ex:garibaldini a rico:CorporateBody ;
+    rico:name "Garibaldini" .
+
+ex:internazionalisti a rico:CorporateBody ;
+    rico:name "Internazionalisti" .
+
+ex:place_bologna a rico:Place ;
+    rico:description "city in Italy, implied location of commemoration" ;
+    rico:name "Bologna" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Romagna" .
+
+ex:repubblicani a rico:CorporateBody ;
+    rico:name "Repubblicani" .
+
+ex:activity_commemoration_of_francesco_piccinini_by_andrea_costa_3 a rico:Activity ;
+    rico:beginningDate "1872-01-01"^^xsd:date ;
+    rico:endDate "1872-12-31"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_commemoration ;
+    rico:name "Commemoration of Francesco Piccinini by Andrea Costa" .
+

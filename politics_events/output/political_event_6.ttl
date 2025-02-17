@@ -1,0 +1,45 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 a rico:PerformanceRelation ;
+    rico:description "main participant" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:federazione_italiana_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 a rico:PerformanceRelation ;
+    rico:description "entity Costa is organizing the congress for" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 ;
+    rico:relationHasTarget ex:federazione_italiana .
+
+ex:internazionale_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 a rico:PerformanceRelation ;
+    rico:description "organization Costa declares allegiance to" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 ;
+    rico:relationHasTarget ex:internazionale .
+
+ex:italy_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_italy ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 .
+
+ex:activity_type_organizing_a_congress_and_declaration_of_allegiance a rico:ActivityType ;
+    rico:name "organizing a congress and declaration of allegiance" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:federazione_italiana a rico:CorporateBody ;
+    rico:name "Federazione italiana" .
+
+ex:internazionale a rico:CorporateBody ;
+    rico:name "Internazionale" .
+
+ex:place_italy a rico:Place ;
+    rico:description "country where the congress organization and arrest occurred" ;
+    rico:name "Italy" .
+
+ex:activity_andrea_costas_involvement_in_organizing_a_congress_for_the_federazione_italiana_and_his_subsequent_arrest_6 a rico:Activity ;
+    rico:beginningDate "1873-01-01"^^xsd:date ;
+    rico:endDate "1873-12-31"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_organizing_a_congress_and_declaration_of_allegiance ;
+    rico:name "Andrea Costa's involvement in organizing a congress for the Federazione italiana and his subsequent arrest" .
+

@@ -1,0 +1,45 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_involvement_in_the_italian_socialist_party_25 a rico:PerformanceRelation ;
+    rico:description "politician" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_italian_socialist_party_25 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:genova_andrea_costas_involvement_in_the_italian_socialist_party_25 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_genova ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_the_italian_socialist_party_25 .
+
+ex:i_suoi_seguaci_andrea_costas_involvement_in_the_italian_socialist_party_25 a rico:PerformanceRelation ;
+    rico:description "Costa's followers" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_italian_socialist_party_25 ;
+    rico:relationHasTarget ex:i_suoi_seguaci .
+
+ex:il_partito_socialista_italiano_andrea_costas_involvement_in_the_italian_socialist_party_25 a rico:PerformanceRelation ;
+    rico:description "host organization" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_italian_socialist_party_25 ;
+    rico:relationHasTarget ex:il_partito_socialista_italiano .
+
+ex:activity_type_congress_participation a rico:ActivityType ;
+    rico:name "congress participation" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:i_suoi_seguaci a rico:CorporateBody ;
+    rico:name "I suoi seguaci" .
+
+ex:il_partito_socialista_italiano a rico:CorporateBody ;
+    rico:name "Il Partito socialista italiano" .
+
+ex:place_genova a rico:Place ;
+    rico:description "location of the 1892 congress" ;
+    rico:name "Genova" .
+
+ex:activity_andrea_costas_involvement_in_the_italian_socialist_party_25 a rico:Activity ;
+    rico:beginningDate "1892-01-01"^^xsd:date ;
+    rico:endDate "1892-01-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_congress_participation ;
+    rico:name "Andrea Costa's involvement in the Italian Socialist Party" .
+

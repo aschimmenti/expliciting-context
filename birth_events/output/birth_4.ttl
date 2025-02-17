@@ -1,0 +1,44 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/event/Birth_Andreano> a rico:Event ;
+    rico:hasOrHadParticipant <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Andreano>,
+        <http://example.org/person/Enrica_Astorri> ;
+    rico:name "Birth of Andreano" ;
+    rico:occurredAtDate <http://example.org/date/2023-01-01> .
+
+<http://example.org/family/Andreano_Family> a rico:Family ;
+    rico:hasOrHadMember <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Andreano>,
+        <http://example.org/person/Enrica_Astorri> ;
+    rico:name "Andreano Family" .
+
+<http://example.org/relation/family_Andrea_Costa_Andreano> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "2023-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Andrea_Costa> ;
+    rico:relationHasTarget <http://example.org/person/Andreano> .
+
+<http://example.org/relation/family_Enrica_Astorri_Andreano> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "2023-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Enrica_Astorri> ;
+    rico:relationHasTarget <http://example.org/person/Andreano> .
+
+<http://example.org/date/2023-01-01> a rico:Date ;
+    rico:normalizedDateValue "2023-01-01"^^xsd:date .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andreano> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/person/Enrica_Astorri> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andreano> ;
+    rico:name "Enrica Astorri" .
+
+<http://example.org/person/Andreano> a rico:Person ;
+    rico:hasParent <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Enrica_Astorri> ;
+    rico:name "Andreano" .
+

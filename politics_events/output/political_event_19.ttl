@@ -1,0 +1,29 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costa_writing_il_sogno_a_utopian_vision_of_imola_under_socialism_19 a rico:PerformanceRelation ;
+    rico:description "author and visionary" ;
+    rico:relationHasSource ex:activity_andrea_costa_writing_il_sogno_a_utopian_vision_of_imola_under_socialism_19 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:imola_andrea_costa_writing_il_sogno_a_utopian_vision_of_imola_under_socialism_19 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_imola ;
+    rico:relationHasTarget ex:activity_andrea_costa_writing_il_sogno_a_utopian_vision_of_imola_under_socialism_19 .
+
+ex:activity_type_writing_of_utopian_vision a rico:ActivityType ;
+    rico:name "writing of utopian vision" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:place_imola a rico:Place ;
+    rico:description "city in Italy where Costa's utopian vision is set" ;
+    rico:name "Imola" .
+
+ex:activity_andrea_costa_writing_il_sogno_a_utopian_vision_of_imola_under_socialism_19 a rico:Activity ;
+    rico:beginningDate "1880-01-01"^^xsd:date ;
+    rico:endDate "1880-12-31"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_writing_of_utopian_vision ;
+    rico:name "Andrea Costa writing 'Il Sogno', a utopian vision of Imola under socialism" .
+

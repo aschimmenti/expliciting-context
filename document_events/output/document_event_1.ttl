@@ -1,0 +1,26 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/agent/andrea_costa> a rico:Person ;
+    rico:isOrganicProvenanceOf <http://example.org/record/il_martello_1> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/agent/federazione_romagnola> a rico:CorporateBody ;
+    rico:isOrganicProvenanceOf <http://example.org/record/il_martello_1> ;
+    rico:name "Federazione romagnola" .
+
+<http://example.org/agent/federazione_umbro-marchigiana> a rico:CorporateBody ;
+    rico:isOrganicProvenanceOf <http://example.org/record/il_martello_1> ;
+    rico:name "Federazione umbro-marchigiana" .
+
+<http://example.org/contentType/periodical_publication> a rico:ContentType ;
+    rico:name "periodical publication" .
+
+<http://example.org/record/il_martello_1> a rico:Record ;
+    rico:hasContentOfType <http://example.org/contentType/periodical_publication> ;
+    rico:hasCreationDate "1873-01-01"^^xsd:date ;
+    rico:hasOrganicProvenance <http://example.org/agent/andrea_costa>,
+        <http://example.org/agent/federazione_romagnola>,
+        <http://example.org/agent/federazione_umbro-marchigiana> ;
+    rico:name "Il Martello" .
+

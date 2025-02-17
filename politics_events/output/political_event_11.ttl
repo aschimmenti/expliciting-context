@@ -1,0 +1,50 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+ex:andrea_costa_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 a rico:PerformanceRelation ;
+    rico:description "politician" ;
+    rico:relationHasSource ex:activity_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:cafiero_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 a rico:PerformanceRelation ;
+    rico:description "politician" ;
+    rico:relationHasSource ex:activity_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 ;
+    rico:relationHasTarget ex:cafiero .
+
+ex:errico_malatesta_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 a rico:PerformanceRelation ;
+    rico:description "politician" ;
+    rico:relationHasSource ex:activity_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 ;
+    rico:relationHasTarget ex:errico_malatesta .
+
+ex:italy_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_italy ;
+    rico:relationHasTarget ex:activity_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 .
+
+ex:pietro_cesare_ceccarelli_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 a rico:PerformanceRelation ;
+    rico:description "politician" ;
+    rico:relationHasSource ex:activity_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 ;
+    rico:relationHasTarget ex:pietro_cesare_ceccarelli .
+
+ex:activity_type_political_decision a rico:ActivityType ;
+    rico:name "political decision" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:cafiero a rico:Person ;
+    rico:name "Cafiero" .
+
+ex:errico_malatesta a rico:Person ;
+    rico:name "Errico Malatesta" .
+
+ex:pietro_cesare_ceccarelli a rico:Person ;
+    rico:name "Pietro Cesare Ceccarelli" .
+
+ex:place_italy a rico:Place ;
+    rico:description "country in Southern Europe, possible location of the moto di San Lupo event" ;
+    rico:name "Italy" .
+
+ex:activity_andrea_costas_decision_not_to_disapprove_of_the_moto_di_san_lupo_11 a rico:Activity ;
+    rico:hasActivityType ex:activity_type_political_decision ;
+    rico:name "Andrea Costa's decision not to disapprove of the moto di San Lupo" .
+

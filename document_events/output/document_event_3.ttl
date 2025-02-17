@@ -1,0 +1,16 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/agent/andrea_costa> a rico:Person ;
+    rico:isOrganicProvenanceOf <http://example.org/record/il_sogno_3> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/contentType/pamphlet> a rico:ContentType ;
+    rico:name "pamphlet" .
+
+<http://example.org/record/il_sogno_3> a rico:Record ;
+    rico:hasContentOfType <http://example.org/contentType/pamphlet> ;
+    rico:hasCreationDate "1880-01-01"^^xsd:date ;
+    rico:hasOrganicProvenance <http://example.org/agent/andrea_costa> ;
+    rico:name "Il Sogno" .
+

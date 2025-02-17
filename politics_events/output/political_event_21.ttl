@@ -1,0 +1,98 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+ex:andrea_costa_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PerformanceRelation ;
+    rico:description "leader of the Partito socialista rivoluzionario di Romagna" ;
+    rico:relationHasSource ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:bolognese_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bolognese ;
+    rico:relationHasTarget ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 .
+
+ex:braccianti_di_ravenna_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PerformanceRelation ;
+    rico:description "workers" ;
+    rico:relationHasSource ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 ;
+    rico:relationHasTarget ex:braccianti_di_ravenna .
+
+ex:emilia-romagna_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_emilia-romagna ;
+    rico:relationHasTarget ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 .
+
+ex:mantova_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_mantova ;
+    rico:relationHasTarget ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 .
+
+ex:operai_edili_della_capitale_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PerformanceRelation ;
+    rico:description "workers" ;
+    rico:relationHasSource ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 ;
+    rico:relationHasTarget ex:operai_edili_della_capitale .
+
+ex:partito_operaio_italiano_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PerformanceRelation ;
+    rico:description "political party" ;
+    rico:relationHasSource ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 ;
+    rico:relationHasTarget ex:partito_operaio_italiano .
+
+ex:partito_socialista_rivoluzionario_di_romagna_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PerformanceRelation ;
+    rico:description "political party" ;
+    rico:relationHasSource ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 ;
+    rico:relationHasTarget ex:partito_socialista_rivoluzionario_di_romagna .
+
+ex:ravenna_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_ravenna ;
+    rico:relationHasTarget ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 .
+
+ex:risaioli_del_bolognese_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PerformanceRelation ;
+    rico:description "workers" ;
+    rico:relationHasSource ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 ;
+    rico:relationHasTarget ex:risaioli_del_bolognese .
+
+ex:roma_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_roma ;
+    rico:relationHasTarget ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 .
+
+ex:activity_type_promotion_of_workers_rights_and_cooperative_movements a rico:ActivityType ;
+    rico:name "promotion of workers' rights and cooperative movements" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:braccianti_di_ravenna a rico:CorporateBody ;
+    rico:name "Braccianti di Ravenna" .
+
+ex:operai_edili_della_capitale a rico:CorporateBody ;
+    rico:name "Operai edili della capitale" .
+
+ex:partito_operaio_italiano a rico:CorporateBody ;
+    rico:name "Partito operaio italiano" .
+
+ex:partito_socialista_rivoluzionario_di_romagna a rico:CorporateBody ;
+    rico:name "Partito socialista rivoluzionario di Romagna" .
+
+ex:place_bolognese a rico:Place ;
+    rico:description "region in Emilia-Romagna, Italy" ;
+    rico:name "Bolognese" .
+
+ex:place_emilia-romagna a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Emilia-Romagna" .
+
+ex:place_mantova a rico:Place ;
+    rico:description "city in Lombardy, Italy" ;
+    rico:name "Mantova" .
+
+ex:place_ravenna a rico:Place ;
+    rico:description "city in Emilia-Romagna, Italy" ;
+    rico:name "Ravenna" .
+
+ex:place_roma a rico:Place ;
+    rico:description "city in Lazio, Italy" ;
+    rico:name "Roma" .
+
+ex:risaioli_del_bolognese a rico:CorporateBody ;
+    rico:name "Risaioli del Bolognese" .
+
+ex:activity_andrea_costas_political_activities_as_the_leader_of_the_partito_socialista_rivoluzionario_di_romagna_21 a rico:Activity ;
+    rico:hasActivityType ex:activity_type_promotion_of_workers_rights_and_cooperative_movements ;
+    rico:name "Andrea Costa's political activities as the leader of the Partito socialista rivoluzionario di Romagna" .
+

@@ -1,0 +1,37 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_involvement_in_the_foundation_of_regional_branches_of_the_internazionale_7 a rico:PerformanceRelation ;
+    rico:description "attendee and participant" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_foundation_of_regional_branches_of_the_internazionale_7 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:federazione_romagnola_dellinternazionale_andrea_costas_involvement_in_the_foundation_of_regional_branches_of_the_internazionale_7 a rico:PerformanceRelation ;
+    rico:description "host" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_foundation_of_regional_branches_of_the_internazionale_7 ;
+    rico:relationHasTarget ex:federazione_romagnola_dellinternazionale .
+
+ex:romagna_andrea_costas_involvement_in_the_foundation_of_regional_branches_of_the_internazionale_7 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_the_foundation_of_regional_branches_of_the_internazionale_7 .
+
+ex:activity_type_foundation_of_the_federazione_romagnola_dellinternazionale a rico:ActivityType ;
+    rico:name "foundation of the Federazione romagnola dell'Internazionale" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:federazione_romagnola_dellinternazionale a rico:CorporateBody ;
+    rico:name "Federazione romagnola dell'Internazionale" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Romagna" .
+
+ex:activity_andrea_costas_involvement_in_the_foundation_of_regional_branches_of_the_internazionale_7 a rico:Activity ;
+    rico:beginningDate "1873-07-20"^^xsd:date ;
+    rico:endDate "1873-07-20"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_foundation_of_the_federazione_romagnola_dellinternazionale ;
+    rico:name "Andrea Costa's involvement in the foundation of regional branches of the Internazionale" .
+

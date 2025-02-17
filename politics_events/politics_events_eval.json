@@ -1,0 +1,4208 @@
+{
+  "metrics": {
+    "precision": "0.95",
+    "recall": "1.00",
+    "f1": "0.98",
+    "accuracy": "0.95",
+    "truePositives": 615,
+    "trueNegatives": 25,
+    "falsePositives": 31,
+    "falseNegatives": 0,
+    "totalFields": 672,
+    "validOutputs": 25,
+    "totalEvents": 26,
+    "validOutputPercentage": "96.15",
+    "trueClassifications": 24,
+    "trueClassificationPercentage": "92.31"
+  },
+  "evaluations": {
+    "0_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].label": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].description": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "1_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[3].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[3].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "2_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "3_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "4_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "5_POLITICS": {
+      "isOutputValid": false,
+      "isClassificationTrue": false,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "6_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": false,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].name": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].type": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].role": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.startDate": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.endDate": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].label": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].description": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[1].label": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[1].description": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "7_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "8_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "9_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.startDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[2].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "10_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "11_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "12_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "13_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "14_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "15_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "16_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "17_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "18_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "19_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.startDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[2].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[2].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].date.startDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[3].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[3].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].participants[1].role": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].date.startDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[4].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[4].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[4].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "20_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[4].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[5].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[5].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[5].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[2].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[3].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[3].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[4].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[4].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "21_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "22_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].action": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].action": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[3].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "23_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[3].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[1].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "24_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].name": {
+          "tp": false,
+          "fp": true,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[2].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[2].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    },
+    "25_POLITICS": {
+      "isOutputValid": true,
+      "isClassificationTrue": true,
+      "fields": {
+        "type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].date.endDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].label": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[0].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].action": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[0].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].name": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].type": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].participants[1].role": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.startDate": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        },
+        "properties.actions[1].date.endDate": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[1].location[0].label": {
+          "tp": false,
+          "fp": false,
+          "fn": false,
+          "tn": true
+        },
+        "properties.actions[1].location[0].description": {
+          "tp": true,
+          "fp": false,
+          "fn": false,
+          "tn": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_involvement_in_local_politics_in_imola_23 a rico:PerformanceRelation ;
+    rico:description "politician" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_local_politics_in_imola_23 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:coalizione_democratica_andrea_costas_involvement_in_local_politics_in_imola_23 a rico:PerformanceRelation ;
+    rico:description "political coalition" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_local_politics_in_imola_23 ;
+    rico:relationHasTarget ex:coalizione_democratica .
+
+ex:comune_andrea_costas_involvement_in_local_politics_in_imola_23 a rico:PerformanceRelation ;
+    rico:description "local government" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_local_politics_in_imola_23 ;
+    rico:relationHasTarget ex:comune .
+
+ex:imola_andrea_costas_involvement_in_local_politics_in_imola_23 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_imola ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_local_politics_in_imola_23 .
+
+ex:romagna_andrea_costas_involvement_in_local_politics_in_imola_23 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_local_politics_in_imola_23 .
+
+ex:activity_type_election_to_consigliere_comunale_and_provinciale a rico:ActivityType ;
+    rico:name "election to consigliere comunale and provinciale" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:coalizione_democratica a rico:CorporateBody ;
+    rico:name "coalizione democratica" .
+
+ex:comune a rico:CorporateBody ;
+    rico:name "comune" .
+
+ex:place_imola a rico:Place ;
+    rico:description "city in Romagna, Italy" ;
+    rico:name "Imola" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Romagna" .
+
+ex:activity_andrea_costas_involvement_in_local_politics_in_imola_23 a rico:Activity ;
+    rico:beginningDate "1889-10-01"^^xsd:date ;
+    rico:endDate "1897-01-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_election_to_consigliere_comunale_and_provinciale ;
+    rico:name "Andrea Costa's involvement in local politics in Imola" .
+

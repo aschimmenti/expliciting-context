@@ -1,0 +1,16 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/agent/andrea_costa> a rico:Person ;
+    rico:isOrganicProvenanceOf <http://example.org/record/ai_miei_amici_di_romagna_2> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/contentType/letter> a rico:ContentType ;
+    rico:name "letter" .
+
+<http://example.org/record/ai_miei_amici_di_romagna_2> a rico:Record ;
+    rico:hasContentOfType <http://example.org/contentType/letter> ;
+    rico:hasCreationDate "1879-07-27"^^xsd:date ;
+    rico:hasOrganicProvenance <http://example.org/agent/andrea_costa> ;
+    rico:name "Ai miei amici di Romagna" .
+

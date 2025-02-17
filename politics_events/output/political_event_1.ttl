@@ -1,0 +1,68 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:PerformanceRelation ;
+    rico:description "main subject" ;
+    rico:relationHasSource ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:bologna_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bologna ;
+    rico:relationHasTarget ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 .
+
+ex:carducci_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:PerformanceRelation ;
+    rico:description "professor who preferred Costa among his students" ;
+    rico:relationHasSource ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 ;
+    rico:relationHasTarget ex:carducci .
+
+ex:imola_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_imola ;
+    rico:relationHasTarget ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 .
+
+ex:internazionale_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:PerformanceRelation ;
+    rico:description "associated with Costa by Renzi" ;
+    rico:relationHasSource ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 ;
+    rico:relationHasTarget ex:internazionale .
+
+ex:paolo_renzi_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:PerformanceRelation ;
+    rico:description "impiegato who associated Costa with the Internazionale" ;
+    rico:relationHasSource ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 ;
+    rico:relationHasTarget ex:paolo_renzi .
+
+ex:università_di_bologna_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_università_di_bologna ;
+    rico:relationHasTarget ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 .
+
+ex:activity_type_enrollment_in_the_university_of_bologna_and_association_with_the_internazionale a rico:ActivityType ;
+    rico:name "enrollment in the University of Bologna and association with the Internazionale" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:carducci a rico:Person ;
+    rico:name "Carducci" .
+
+ex:internazionale a rico:CorporateBody ;
+    rico:name "Internazionale" .
+
+ex:paolo_renzi a rico:Person ;
+    rico:name "Paolo Renzi" .
+
+ex:place_bologna a rico:Place ;
+    rico:description "city where Costa enrolled in the university" ;
+    rico:name "Bologna" .
+
+ex:place_imola a rico:Place ;
+    rico:description "city where Costa worked in an insurance agency" ;
+    rico:name "Imola" .
+
+ex:place_università_di_bologna a rico:Place ;
+    rico:description "university where Costa studied" ;
+    rico:name "Università di Bologna" .
+
+ex:activity_andrea_costas_introduction_to_socialist_and_anarchist_ideologies_1 a rico:Activity ;
+    rico:beginningDate "1870-12-15"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_enrollment_in_the_university_of_bologna_and_association_with_the_internazionale ;
+    rico:name "Andrea Costa's introduction to socialist and anarchist ideologies" .
+

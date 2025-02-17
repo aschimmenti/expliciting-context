@@ -1,0 +1,44 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 a rico:PerformanceRelation ;
+    rico:description "main subject" ;
+    rico:relationHasSource ex:activity_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:france_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_france ;
+    rico:relationHasTarget ex:activity_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 .
+
+ex:jules_guesde_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 a rico:PerformanceRelation ;
+    rico:description "representative of French socialism" ;
+    rico:relationHasSource ex:activity_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 ;
+    rico:relationHasTarget ex:jules_guesde .
+
+ex:the_environment_of_international_socialism_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 a rico:PerformanceRelation ;
+    rico:description "influential factor" ;
+    rico:relationHasSource ex:activity_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 ;
+    rico:relationHasTarget ex:the_environment_of_international_socialism .
+
+ex:activity_type_contact_with_international_socialism a rico:ActivityType ;
+    rico:name "contact with international socialism" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:jules_guesde a rico:Person ;
+    rico:name "Jules Guesde" .
+
+ex:place_france a rico:Place ;
+    rico:description "country of Costa's stay and interaction with French socialism" ;
+    rico:name "France" .
+
+ex:the_environment_of_international_socialism a rico:CorporateBody ;
+    rico:name "The environment of international socialism" .
+
+ex:activity_andrea_costas_evolution_in_politics_influenced_by_international_socialism_13 a rico:Activity ;
+    rico:beginningDate "1877-01-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_contact_with_international_socialism ;
+    rico:name "Andrea Costa's evolution in politics influenced by international socialism" .
+

@@ -1,0 +1,35 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_scrivano_1> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1870-12-15"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/scrivano_agenzia_di_assicurazioni_imolese> .
+
+<http://example.org/#positionHoldingRelation/paolo_renzi_impiegato_1> a rico:PositionHoldingRelation ;
+    rico:relationHasSource <http://example.org/#person/paolo_renzi> ;
+    rico:relationHasTarget <http://example.org/#position/impiegato_agenzia_di_assicurazioni_imolese> .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/#person/paolo_renzi> a rico:Person ;
+    rico:name "Paolo Renzi" .
+
+<http://example.org/#place/imola> a rico:Place ;
+    rico:description "Insurance agency in Imola" ;
+    rico:name "Imola" .
+
+<http://example.org/#position/impiegato_agenzia_di_assicurazioni_imolese> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/agenzia_di_assicurazioni_imolese> ;
+    rico:name "impiegato" .
+
+<http://example.org/#position/scrivano_agenzia_di_assicurazioni_imolese> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/agenzia_di_assicurazioni_imolese> ;
+    rico:name "scrivano" .
+
+<http://example.org/#corporatebody/agenzia_di_assicurazioni_imolese> a rico:CorporateBody ;
+    rico:corporateBodyType "Insurance Agency" ;
+    rico:isLocatedAt <http://example.org/#place/imola> ;
+    rico:name "agenzia di assicurazioni imolese" .
+

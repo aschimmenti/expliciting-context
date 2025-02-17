@@ -1,0 +1,66 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+ex:andrea_costa_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:PerformanceRelation ;
+    rico:description "opponent of unification" ;
+    rico:relationHasSource ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:bologna_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bologna ;
+    rico:relationHasTarget ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 .
+
+ex:carlo_cafiero_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:PerformanceRelation ;
+    rico:description "leader of the Neapolitan group" ;
+    rico:relationHasSource ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 ;
+    rico:relationHasTarget ex:carlo_cafiero .
+
+ex:ceretti_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:PerformanceRelation ;
+    rico:description "internazionalista garibaldino, supporter of unification" ;
+    rico:relationHasSource ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 ;
+    rico:relationHasTarget ex:ceretti .
+
+ex:garibaldi_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:PerformanceRelation ;
+    rico:description "initiator of the unification attempt" ;
+    rico:relationHasSource ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 ;
+    rico:relationHasTarget ex:garibaldi .
+
+ex:internazionalisti_emiliani_e_romagnoli_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:PerformanceRelation ;
+    rico:description "supporters of Bakunin's positions" ;
+    rico:relationHasSource ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 ;
+    rico:relationHasTarget ex:internazionalisti_emiliani_e_romagnoli .
+
+ex:naples_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_naples ;
+    rico:relationHasTarget ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 .
+
+ex:activity_type_congress a rico:ActivityType ;
+    rico:name "congress" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:carlo_cafiero a rico:Person ;
+    rico:name "Carlo Cafiero" .
+
+ex:ceretti a rico:Person ;
+    rico:name "Ceretti" .
+
+ex:garibaldi a rico:Person ;
+    rico:name "Garibaldi" .
+
+ex:internazionalisti_emiliani_e_romagnoli a rico:CorporateBody ;
+    rico:name "Internazionalisti emiliani e romagnoli" .
+
+ex:place_bologna a rico:Place ;
+    rico:description "location of the congress of internazionalisti emiliani e romagnoli" ;
+    rico:name "Bologna" .
+
+ex:place_naples a rico:Place ;
+    rico:description "implied location of Carlo Cafiero's group" ;
+    rico:name "Naples" .
+
+ex:activity_congress_of_internazionalisti_emiliani_e_romagnoli_4 a rico:Activity ;
+    rico:hasActivityType ex:activity_type_congress ;
+    rico:name "Congress of internazionalisti emiliani e romagnoli" .
+

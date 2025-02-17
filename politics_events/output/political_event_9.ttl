@@ -1,0 +1,66 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+ex:andrea_costa_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:PerformanceRelation ;
+    rico:description "principal organizer" ;
+    rico:relationHasSource ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:antonio_cornacchia_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:PerformanceRelation ;
+    rico:description "commander of the internazionalisti romagnoli" ;
+    rico:relationHasSource ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 ;
+    rico:relationHasTarget ex:antonio_cornacchia .
+
+ex:bakunin_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:PerformanceRelation ;
+    rico:description "expected participant and supporter" ;
+    rico:relationHasSource ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 ;
+    rico:relationHasTarget ex:bakunin .
+
+ex:bologna_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bologna ;
+    rico:relationHasTarget ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 .
+
+ex:italian_internazionalists_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:PerformanceRelation ;
+    rico:description "organizers and participants" ;
+    rico:relationHasSource ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 ;
+    rico:relationHasTarget ex:italian_internazionalists .
+
+ex:romagna_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 .
+
+ex:the_police_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:PerformanceRelation ;
+    rico:description "opponent and controller" ;
+    rico:relationHasSource ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 ;
+    rico:relationHasTarget ex:the_police .
+
+ex:activity_type_attempted_insurrection a rico:ActivityType ;
+    rico:name "attempted insurrection" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:antonio_cornacchia a rico:Person ;
+    rico:name "Antonio Cornacchia" .
+
+ex:bakunin a rico:Person ;
+    rico:name "Bakunin" .
+
+ex:italian_internazionalists a rico:CorporateBody ;
+    rico:name "Italian internazionalists" .
+
+ex:place_bologna a rico:Place ;
+    rico:description "city, intended epicenter of the insurrection" ;
+    rico:name "Bologna" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region, origin of the internazionalisti romagnoli" ;
+    rico:name "Romagna" .
+
+ex:the_police a rico:CorporateBody ;
+    rico:name "The police" .
+
+ex:activity_failed_insurrection_attempt_by_italian_internazionalists_9 a rico:Activity ;
+    rico:hasActivityType ex:activity_type_attempted_insurrection ;
+    rico:name "Failed insurrection attempt by Italian internazionalists" .
+

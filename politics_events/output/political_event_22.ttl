@@ -1,0 +1,45 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 a rico:PerformanceRelation ;
+    rico:description "leader/promoter" ;
+    rico:relationHasSource ex:activity_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:numerous_other_socialist_italians_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 a rico:PerformanceRelation ;
+    rico:description "supporters" ;
+    rico:relationHasSource ex:activity_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 ;
+    rico:relationHasTarget ex:numerous_other_socialist_italians .
+
+ex:romagna_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 .
+
+ex:the_population_of_romagna_particularly_the_working_class_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 a rico:PerformanceRelation ;
+    rico:description "target of the agitation" ;
+    rico:relationHasSource ex:activity_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 ;
+    rico:relationHasTarget ex:the_population_of_romagna_particularly_the_working_class .
+
+ex:activity_type_promotion_of_socialist_agenda_through_agitation a rico:ActivityType ;
+    rico:name "promotion of socialist agenda through agitation" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:numerous_other_socialist_italians a rico:CorporateBody ;
+    rico:name "Numerous other socialist Italians" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Romagna" .
+
+ex:the_population_of_romagna_particularly_the_working_class a rico:CorporateBody ;
+    rico:name "The population of Romagna, particularly the working class" .
+
+ex:activity_andrea_costas_promotion_of_a_socialist_agenda_in_romagna_22 a rico:Activity ;
+    rico:beginningDate "1882-01-01"^^xsd:date ;
+    rico:endDate "1890-01-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_promotion_of_socialist_agenda_through_agitation ;
+    rico:name "Andrea Costa's promotion of a socialist agenda in Romagna" .
+

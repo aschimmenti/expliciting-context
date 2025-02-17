@@ -1,0 +1,41 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/#> .
+
+# Define persons
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:bakunin a rico:Person ;
+    rico:name "Bakunin" .
+
+ex:antonio_cornacchia a rico:Person ;
+    rico:name "Antonio Cornacchia" .
+
+# Define organizations
+ex:internazionalisti_italiani a rico:CorporateBody ;
+    rico:name "Internazionalisti Italiani" .
+
+ex:polizia a rico:CorporateBody ;
+    rico:name "Polizia" .
+
+ex:insurrezione a rico:ActivityType ;
+    rico:name "Insurrezione" .
+
+ex:insurrezione_1874 a rico:Activity ;
+    rico:hasActivityType ex:insurrezione ;
+    rico:beginningDate "1874-01-01"^^xsd:date ;
+    rico:endingDate "1874-12-31"^^xsd:date ;
+    rico:name "Tentativo insurrezionale degli internazionalisti italiani del 1874" ;
+    rico:isEventAssociatedWith ex:andrea_costa, ex:bakunin, ex:antonio_cornacchia, ex:internazionalisti_italiani, ex:polizia ;
+    rico:resultsOrResultedIn "Fallimento dell'insurrezione" ;
+
+# Define the Place
+ex:bologna a rico:Place ;
+    rico:name "Bologna" .
+
+# Define the PlaceRelation connecting them
+ex:place_relation_insurrezione_1874 a rico:PlaceRelation ;
+    rico:relationHasSource ex:bologna ;
+    rico:relationHasTarget ex:insurrezione_1874 ;
+    rico:description "Bologna served as the location for the 1874 insurrection attempt" .

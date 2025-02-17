@@ -1,0 +1,58 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_secretary_2> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1872-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/secretary_federazione_italiana_dellinternazionale> .
+
+<http://example.org/#positionHoldingRelation/carlo_cafiero_president_2> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1872-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/carlo_cafiero> ;
+    rico:relationHasTarget <http://example.org/#position/president_federazione_italiana_dellinternazionale> .
+
+<http://example.org/#positionHoldingRelation/friedrich_engels_leader_2> a rico:PositionHoldingRelation ;
+    rico:relationHasSource <http://example.org/#person/friedrich_engels> ;
+    rico:relationHasTarget <http://example.org/#position/leader_internazionale> .
+
+<http://example.org/#positionHoldingRelation/karl_marx_leader_2> a rico:PositionHoldingRelation ;
+    rico:relationHasSource <http://example.org/#person/karl_marx> ;
+    rico:relationHasTarget <http://example.org/#position/leader_internazionale> .
+
+<http://example.org/#corporatebody/internazionale> a rico:CorporateBody ;
+    rico:corporateBodyType "Organization" ;
+    rico:name "Internazionale" .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/#person/carlo_cafiero> a rico:Person ;
+    rico:name "Carlo Cafiero" .
+
+<http://example.org/#person/friedrich_engels> a rico:Person ;
+    rico:name "Friedrich Engels" .
+
+<http://example.org/#person/karl_marx> a rico:Person ;
+    rico:name "Karl Marx" .
+
+<http://example.org/#place/rimini> a rico:Place ;
+    rico:description "Rimini, Italy" ;
+    rico:name "Rimini" .
+
+<http://example.org/#position/president_federazione_italiana_dellinternazionale> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/federazione_italiana_dellinternazionale> ;
+    rico:name "president" .
+
+<http://example.org/#position/secretary_federazione_italiana_dellinternazionale> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/federazione_italiana_dellinternazionale> ;
+    rico:name "secretary" .
+
+<http://example.org/#corporatebody/federazione_italiana_dellinternazionale> a rico:CorporateBody ;
+    rico:corporateBodyType "Organization" ;
+    rico:isLocatedAt <http://example.org/#place/rimini> ;
+    rico:name "Federazione italiana dell'Internazionale" .
+
+<http://example.org/#position/leader_internazionale> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/internazionale> ;
+    rico:name "leader" .
+

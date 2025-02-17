@@ -1,0 +1,36 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_establishment_of_relationships_with_benoît_malon_after_liberation_16 a rico:PerformanceRelation ;
+    rico:description "individual establishing relationships" ;
+    rico:relationHasSource ex:activity_andrea_costas_establishment_of_relationships_with_benoît_malon_after_liberation_16 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:benoît_malon_andrea_costas_establishment_of_relationships_with_benoît_malon_after_liberation_16 a rico:PerformanceRelation ;
+    rico:description "individual with whom relationships were established" ;
+    rico:relationHasSource ex:activity_andrea_costas_establishment_of_relationships_with_benoît_malon_after_liberation_16 ;
+    rico:relationHasTarget ex:benoît_malon .
+
+ex:francia_andrea_costas_establishment_of_relationships_with_benoît_malon_after_liberation_16 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_francia ;
+    rico:relationHasTarget ex:activity_andrea_costas_establishment_of_relationships_with_benoît_malon_after_liberation_16 .
+
+ex:activity_type_establishment_of_relationships a rico:ActivityType ;
+    rico:name "establishment of relationships" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:benoît_malon a rico:Person ;
+    rico:name "Benoît Malon" .
+
+ex:place_francia a rico:Place ;
+    rico:description "country where Andrea Costa and Benoît Malon interacted" ;
+    rico:name "Francia" .
+
+ex:activity_andrea_costas_establishment_of_relationships_with_benoît_malon_after_liberation_16 a rico:Activity ;
+    rico:beginningDate "1879-06-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_establishment_of_relationships ;
+    rico:name "Andrea Costa's establishment of relationships with Benoît Malon after liberation" .
+

@@ -1,0 +1,23 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+    rico:name "Andrea Costa" ;
+    rico:thigIsConnectedToRelation <http://example.org/AgentToAgentRelation/relation_1> .
+
+<http://example.org/person/Anna_Kuliscioff> a rico:Person ;
+    rico:name "Anna Kuliscioff" ;
+    rico:thigIsConnectedToRelation <http://example.org/AgentToAgentRelation/relation_1> .
+
+<http://example.org/place/Svizzera> a rico:Place ;
+    rico:isOrWasLocationOf <http://example.org/AgentToAgentRelation/relation_1> ;
+    rico:name "Svizzera" .
+
+<http://example.org/AgentToAgentRelation/relation_1> a rico:AgentToAgentRelation ;
+    rico:hasBeginningDate "1877-01-01"^^xsd:date ;
+    rico:hasOrHadLocation <http://example.org/place/Svizzera> ;
+    rico:name "Romantic relationship between Andrea Costa and Anna Kuliscioff" ;
+    rico:relationConnects <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Anna_Kuliscioff> ;
+    rico:type "romantic relation" .
+

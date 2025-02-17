@@ -1,0 +1,67 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:PerformanceRelation ;
+    rico:description "principal organizer and defendant" ;
+    rico:relationHasSource ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:antonio_cornacchia_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:PerformanceRelation ;
+    rico:description "commander of the internazionalisti romagnoli" ;
+    rico:relationHasSource ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 ;
+    rico:relationHasTarget ex:antonio_cornacchia .
+
+ex:bakunin_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:PerformanceRelation ;
+    rico:description "expected participant and leader" ;
+    rico:relationHasSource ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 ;
+    rico:relationHasTarget ex:bakunin .
+
+ex:bologna_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bologna ;
+    rico:relationHasTarget ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 .
+
+ex:internazionalisti_italiani_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:PerformanceRelation ;
+    rico:description "organizers and participants" ;
+    rico:relationHasSource ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 ;
+    rico:relationHasTarget ex:internazionalisti_italiani .
+
+ex:italy_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_italy ;
+    rico:relationHasTarget ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 .
+
+ex:romagna_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 .
+
+ex:activity_type_organization_and_attempted_execution_of_an_insurrection a rico:ActivityType ;
+    rico:name "organization and attempted execution of an insurrection" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:antonio_cornacchia a rico:Person ;
+    rico:name "Antonio Cornacchia" .
+
+ex:bakunin a rico:Person ;
+    rico:name "Bakunin" .
+
+ex:internazionalisti_italiani a rico:CorporateBody ;
+    rico:name "Internazionalisti italiani" .
+
+ex:place_bologna a rico:Place ;
+    rico:description "planned epicenter of the insurrection" ;
+    rico:name "Bologna" .
+
+ex:place_italy a rico:Place ;
+    rico:description "general location of the events" ;
+    rico:name "Italy" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region where the internazionalisti romagnoli were from" ;
+    rico:name "Romagna" .
+
+ex:activity_attempted_insurrection_led_by_andrea_costa_and_the_internazionalisti_italiani_10 a rico:Activity ;
+    rico:endDate "1876-03-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_organization_and_attempted_execution_of_an_insurrection ;
+    rico:name "Attempted insurrection led by Andrea Costa and the internazionalisti italiani" .

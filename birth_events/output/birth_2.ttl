@@ -1,0 +1,53 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/event/Birth_Andreino> a rico:Event ;
+    rico:hasOrHadParticipant <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Andreino>,
+        <http://example.org/person/Violetta_DallAlpi> ;
+    rico:name "Birth of Andreino" ;
+    rico:occurredAtDate <http://example.org/date/1877-08-05> .
+
+<http://example.org/family/Andreino_Family> a rico:Family ;
+    rico:hasOrHadMember <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Andreino>,
+        <http://example.org/person/Violetta_DallAlpi> ;
+    rico:name "Andreino Family" .
+
+<http://example.org/relation/birth_place_Andreino> a rico:PlaceRelation ;
+    rico:date "1877-08-05"^^xsd:date ;
+    rico:placeRelationType "birthPlace" ;
+    rico:relationHasSource <http://example.org/place/Bologna> ;
+    rico:relationHasTarget <http://example.org/person/Andreino> .
+
+<http://example.org/relation/family_Andrea_Costa_Andreino> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "1877-08-05"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Andrea_Costa> ;
+    rico:relationHasTarget <http://example.org/person/Andreino> .
+
+<http://example.org/relation/family_Violetta_DallAlpi_Andreino> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "1877-08-05"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Violetta_DallAlpi> ;
+    rico:relationHasTarget <http://example.org/person/Andreino> .
+
+<http://example.org/date/1877-08-05> a rico:Date ;
+    rico:normalizedDateValue "1877-08-05"^^xsd:date .
+
+<http://example.org/place/Bologna> a rico:Place ;
+    rico:name "Bologna" .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andreino> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/person/Violetta_DallAlpi> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andreino> ;
+    rico:name "Violetta Dall'Alpi" .
+
+<http://example.org/person/Andreino> a rico:Person ;
+    rico:hasParent <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Violetta_DallAlpi> ;
+    rico:name "Andreino" .
+

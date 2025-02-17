@@ -1,0 +1,29 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_reflection_and_rethinking_during_incarceration_15 a rico:PerformanceRelation ;
+    rico:description "individual reflecting" ;
+    rico:relationHasSource ex:activity_andrea_costas_reflection_and_rethinking_during_incarceration_15 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:parigi_andrea_costas_reflection_and_rethinking_during_incarceration_15 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_parigi ;
+    rico:relationHasTarget ex:activity_andrea_costas_reflection_and_rethinking_during_incarceration_15 .
+
+ex:activity_type_personal_reflection_and_rethinking a rico:ActivityType ;
+    rico:name "personal reflection and rethinking" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:place_parigi a rico:Place ;
+    rico:description "city in Francia where Andrea Costa was incarcerated" ;
+    rico:name "Parigi" .
+
+ex:activity_andrea_costas_reflection_and_rethinking_during_incarceration_15 a rico:Activity ;
+    rico:beginningDate "1878-03-01"^^xsd:date ;
+    rico:endDate "1879-06-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_personal_reflection_and_rethinking ;
+    rico:name "Andrea Costa's reflection and rethinking during incarceration" .
+

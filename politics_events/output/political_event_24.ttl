@@ -1,0 +1,61 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 a rico:PerformanceRelation ;
+    rico:description "politician" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:genova_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_genova ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 .
+
+ex:italy_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_italy ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 .
+
+ex:partito_dei_lavoratori_italiani_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 a rico:PerformanceRelation ;
+    rico:description "party founder" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 ;
+    rico:relationHasTarget ex:partito_dei_lavoratori_italiani .
+
+ex:partito_socialista_italiano_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 a rico:PerformanceRelation ;
+    rico:description "associated party" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 ;
+    rico:relationHasTarget ex:partito_socialista_italiano .
+
+ex:the_internazionale_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 a rico:PerformanceRelation ;
+    rico:description "international affiliation" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 ;
+    rico:relationHasTarget ex:the_internazionale .
+
+ex:activity_type_birth_of_the_italian_workers_party a rico:ActivityType ;
+    rico:name "birth of the Italian Workers' Party" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:partito_dei_lavoratori_italiani a rico:CorporateBody ;
+    rico:name "Partito dei lavoratori italiani" .
+
+ex:partito_socialista_italiano a rico:CorporateBody ;
+    rico:name "Partito socialista italiano" .
+
+ex:place_genova a rico:Place ;
+    rico:description "city" ;
+    rico:name "Genova" .
+
+ex:place_italy a rico:Place ;
+    rico:description "country" ;
+    rico:name "Italy" .
+
+ex:the_internazionale a rico:CorporateBody ;
+    rico:name "The Internazionale" .
+
+ex:activity_andrea_costas_involvement_in_the_early_stages_of_the_italian_socialist_movement_24 a rico:Activity ;
+    rico:beginningDate "1879-01-01"^^xsd:date ;
+    rico:endDate "1879-01-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_birth_of_the_italian_workers_party ;
+    rico:name "Andrea Costa's involvement in the early stages of the Italian socialist movement" .
+

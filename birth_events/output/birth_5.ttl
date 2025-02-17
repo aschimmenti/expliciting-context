@@ -1,0 +1,37 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+<http://example.org/event/Birth_Annita> a rico:Event ;
+    rico:hasOrHadParticipant <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Annita>,
+        <http://example.org/person/Enrica_Astorri> ;
+    rico:name "Birth of Annita" .
+
+<http://example.org/family/Annita_Family> a rico:Family ;
+    rico:hasOrHadMember <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Annita>,
+        <http://example.org/person/Enrica_Astorri> ;
+    rico:name "Annita Family" .
+
+<http://example.org/relation/family_Andrea_Costa_Annita> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:relationHasSource <http://example.org/person/Andrea_Costa> ;
+    rico:relationHasTarget <http://example.org/person/Annita> .
+
+<http://example.org/relation/family_Enrica_Astorri_Annita> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:relationHasSource <http://example.org/person/Enrica_Astorri> ;
+    rico:relationHasTarget <http://example.org/person/Annita> .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+    rico:hasChild <http://example.org/person/Annita> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/person/Enrica_Astorri> a rico:Person ;
+    rico:hasChild <http://example.org/person/Annita> ;
+    rico:name "Enrica Astorri" .
+
+<http://example.org/person/Annita> a rico:Person ;
+    rico:hasParent <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Enrica_Astorri> ;
+    rico:name "Annita" .
+

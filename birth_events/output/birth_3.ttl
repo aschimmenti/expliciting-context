@@ -1,0 +1,53 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/event/Birth_Andreana> a rico:Event ;
+    rico:hasOrHadParticipant <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Andreana>,
+        <http://example.org/person/Anna_Kuliscioff> ;
+    rico:name "Birth of Andreana, detta Andreina" ;
+    rico:occurredAtDate <http://example.org/date/1881-12-08> .
+
+<http://example.org/family/Andreana_Family> a rico:Family ;
+    rico:hasOrHadMember <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Andreana>,
+        <http://example.org/person/Anna_Kuliscioff> ;
+    rico:name "Andreana Family" .
+
+<http://example.org/relation/birth_place_Andreana> a rico:PlaceRelation ;
+    rico:date "1881-12-08"^^xsd:date ;
+    rico:placeRelationType "birthPlace" ;
+    rico:relationHasSource <http://example.org/place/Imola> ;
+    rico:relationHasTarget <http://example.org/person/Andreana> .
+
+<http://example.org/relation/family_Andrea_Costa_Andreana> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "1881-12-08"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Andrea_Costa> ;
+    rico:relationHasTarget <http://example.org/person/Andreana> .
+
+<http://example.org/relation/family_Anna_Kuliscioff_Andreana> a rico:FamilyRelation ;
+    rico:familyRelationType "parent-child" ;
+    rico:hasBeginningDate "1881-12-08"^^xsd:date ;
+    rico:relationHasSource <http://example.org/person/Anna_Kuliscioff> ;
+    rico:relationHasTarget <http://example.org/person/Andreana> .
+
+<http://example.org/date/1881-12-08> a rico:Date ;
+    rico:normalizedDateValue "1881-12-08"^^xsd:date .
+
+<http://example.org/place/Imola> a rico:Place ;
+    rico:name "Imola" .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andreana> ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/person/Anna_Kuliscioff> a rico:Person ;
+    rico:hasChild <http://example.org/person/Andreana> ;
+    rico:name "Anna Kuliscioff" .
+
+<http://example.org/person/Andreana> a rico:Person ;
+    rico:hasParent <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Anna_Kuliscioff> ;
+    rico:name "Andreana" .
+

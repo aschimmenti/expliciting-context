@@ -1,0 +1,24 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_vice_president_5> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1909-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/vice_president_camera> .
+
+<http://example.org/#corporatebody/camera> a rico:CorporateBody ;
+    rico:corporateBodyType "Legislative Body" ;
+    rico:isLocatedAt <http://example.org/#place/camera> ;
+    rico:name "Camera" .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/#place/camera> a rico:Place ;
+    rico:description "Chamber, Italy" ;
+    rico:name "Camera" .
+
+<http://example.org/#position/vice_president_camera> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/camera> ;
+    rico:name "Vice President" .
+

@@ -1,0 +1,42 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+ex:andrea_costa_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 a rico:PerformanceRelation ;
+    rico:description "politician and president" ;
+    rico:relationHasSource ex:activity_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:bakuninists_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 a rico:PerformanceRelation ;
+    rico:description "political faction within the Internazionale" ;
+    rico:relationHasSource ex:activity_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 ;
+    rico:relationHasTarget ex:bakuninists .
+
+ex:ginevra_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_ginevra ;
+    rico:relationHasTarget ex:activity_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 .
+
+ex:the_internazionale_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 a rico:PerformanceRelation ;
+    rico:description "international organization" ;
+    rico:relationHasSource ex:activity_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 ;
+    rico:relationHasTarget ex:the_internazionale .
+
+ex:activity_type_participation_in_the_vi_congress_of_the_internazionale a rico:ActivityType ;
+    rico:name "participation in the VI Congress of the Internazionale" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:bakuninists a rico:CorporateBody ;
+    rico:name "Bakuninists" .
+
+ex:place_ginevra a rico:Place ;
+    rico:description "city" ;
+    rico:name "Ginevra" .
+
+ex:the_internazionale a rico:CorporateBody ;
+    rico:name "The Internazionale" .
+
+ex:activity_andrea_costas_participation_in_the_vi_congress_of_the_internazionale_8 a rico:Activity ;
+    rico:hasActivityType ex:activity_type_participation_in_the_vi_congress_of_the_internazionale ;
+    rico:name "Andrea Costa's participation in the VI Congress of the Internazionale" .
+

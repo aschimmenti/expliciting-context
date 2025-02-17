@@ -1,0 +1,60 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_svolta_in_the_socialismo_italiano_18 a rico:PerformanceRelation ;
+    rico:description "main actor" ;
+    rico:relationHasSource ex:activity_andrea_costas_svolta_in_the_socialismo_italiano_18 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:benoît_malon_andrea_costas_svolta_in_the_socialismo_italiano_18 a rico:PerformanceRelation ;
+    rico:description "evoluzionista" ;
+    rico:relationHasSource ex:activity_andrea_costas_svolta_in_the_socialismo_italiano_18 ;
+    rico:relationHasTarget ex:benoît_malon .
+
+ex:enrico_bignami_andrea_costas_svolta_in_the_socialismo_italiano_18 a rico:PerformanceRelation ;
+    rico:description "owner of 'La Plebe'" ;
+    rico:relationHasSource ex:activity_andrea_costas_svolta_in_the_socialismo_italiano_18 ;
+    rico:relationHasTarget ex:enrico_bignami .
+
+ex:italy_andrea_costas_svolta_in_the_socialismo_italiano_18 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_italy ;
+    rico:relationHasTarget ex:activity_andrea_costas_svolta_in_the_socialismo_italiano_18 .
+
+ex:romagna_andrea_costas_svolta_in_the_socialismo_italiano_18 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_romagna ;
+    rico:relationHasTarget ex:activity_andrea_costas_svolta_in_the_socialismo_italiano_18 .
+
+ex:socialisti_andrea_costas_svolta_in_the_socialismo_italiano_18 a rico:PerformanceRelation ;
+    rico:description "target of Costa's actions" ;
+    rico:relationHasSource ex:activity_andrea_costas_svolta_in_the_socialismo_italiano_18 ;
+    rico:relationHasTarget ex:socialisti .
+
+ex:activity_type_publication_of_letter_and_founding_of_new_organs_of_stampa a rico:ActivityType ;
+    rico:name "publication of letter and founding of new organs of stampa" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:benoît_malon a rico:Person ;
+    rico:name "Benoît Malon" .
+
+ex:enrico_bignami a rico:Person ;
+    rico:name "Enrico Bignami" .
+
+ex:place_italy a rico:Place ;
+    rico:description "country where the socialismo italiano took place" ;
+    rico:name "Italy" .
+
+ex:place_romagna a rico:Place ;
+    rico:description "region in Italy" ;
+    rico:name "Romagna" .
+
+ex:socialisti a rico:CorporateBody ;
+    rico:name "Socialisti" .
+
+ex:activity_andrea_costas_svolta_in_the_socialismo_italiano_18 a rico:Activity ;
+    rico:beginningDate "1879-07-27"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_publication_of_letter_and_founding_of_new_organs_of_stampa ;
+    rico:name "Andrea Costa's 'svolta' in the socialismo italiano" .
+

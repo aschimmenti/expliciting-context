@@ -1,0 +1,66 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#TeachingRelation/a_sacerdote_andrea_costa> a rico:TeachingRelation ;
+    rico:relationHasSource <http://example.org/#person/a_sacerdote> ;
+    rico:relationHasTarget <http://example.org/#person/andrea_costa> .
+
+<http://example.org/#positionHoldingRelation/a_sacerdote_teacher_1> a rico:PositionHoldingRelation ;
+    rico:relationHasSource <http://example.org/#person/a_sacerdote> ;
+    rico:relationHasTarget <http://example.org/#position/teacher_scuole_elementari> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_student_1> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1866-01-01"^^xsd:date ;
+    rico:endingDate "1868-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/student_scuola_tecnica_comunale>,
+        <http://example.org/#position/student_scuole_elementari> .
+
+<http://example.org/#positionHoldingRelation/gaetano_darchini_student_1> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1866-01-01"^^xsd:date ;
+    rico:endingDate "1868-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/gaetano_darchini> ;
+    rico:relationHasTarget <http://example.org/#position/student_scuola_tecnica_comunale> .
+
+<http://example.org/#positionHoldingRelation/luigi_sassi_mentor_1> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1866-01-01"^^xsd:date ;
+    rico:endingDate "1868-01-01"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/luigi_sassi> ;
+    rico:relationHasTarget <http://example.org/#position/mentor_scuola_tecnica_comunale> .
+
+<http://example.org/#person/gaetano_darchini> a rico:Person ;
+    rico:name "Gaetano Darchini" .
+
+<http://example.org/#person/luigi_sassi> a rico:Person ;
+    rico:name "Luigi Sassi" .
+
+<http://example.org/#position/mentor_scuola_tecnica_comunale> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#institution/scuola_tecnica_comunale> ;
+    rico:name "mentor" .
+
+<http://example.org/#position/student_scuole_elementari> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#institution/scuole_elementari> ;
+    rico:name "student" .
+
+<http://example.org/#position/teacher_scuole_elementari> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#institution/scuole_elementari> ;
+    rico:name "teacher" .
+
+<http://example.org/#institution/scuola_tecnica_comunale> a rico:CorporateBody ;
+    rico:corporateBodyType "technical school" ;
+    rico:name "scuola tecnica comunale" .
+
+<http://example.org/#institution/scuole_elementari> a rico:CorporateBody ;
+    rico:corporateBodyType "elementary school" ;
+    rico:name "scuole elementari" .
+
+<http://example.org/#person/a_sacerdote> a rico:Person ;
+    rico:name "a sacerdote" .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/#position/student_scuola_tecnica_comunale> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#institution/scuola_tecnica_comunale> ;
+    rico:name "student" .
+

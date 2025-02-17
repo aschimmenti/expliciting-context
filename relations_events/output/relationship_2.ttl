@@ -1,0 +1,23 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/person/Andrea_Costa> a rico:Person ;
+    rico:name "Andrea Costa" ;
+    rico:thigIsConnectedToRelation <http://example.org/AgentToAgentRelation/relation_2> .
+
+<http://example.org/person/Benoît_Malon> a rico:Person ;
+    rico:name "Benoît Malon" ;
+    rico:thigIsConnectedToRelation <http://example.org/AgentToAgentRelation/relation_2> .
+
+<http://example.org/place/Paris> a rico:Place ;
+    rico:isOrWasLocationOf <http://example.org/AgentToAgentRelation/relation_2> ;
+    rico:name "Paris" .
+
+<http://example.org/AgentToAgentRelation/relation_2> a rico:AgentToAgentRelation ;
+    rico:hasBeginningDate "1879-01-01"^^xsd:date ;
+    rico:hasOrHadLocation <http://example.org/place/Paris> ;
+    rico:name "Political alliance between Andrea Costa and Benoît Malon" ;
+    rico:relationConnects <http://example.org/person/Andrea_Costa>,
+        <http://example.org/person/Benoît_Malon> ;
+    rico:type "political alliance" .
+

@@ -1,0 +1,37 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_participation_in_the_ii_internazionale_congress_and_election_as_vice_president_of_the_camera_26 a rico:PerformanceRelation ;
+    rico:description "attendee and intervenor" ;
+    rico:relationHasSource ex:activity_andrea_costas_participation_in_the_ii_internazionale_congress_and_election_as_vice_president_of_the_camera_26 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:ii_internazionale_andrea_costas_participation_in_the_ii_internazionale_congress_and_election_as_vice_president_of_the_camera_26 a rico:PerformanceRelation ;
+    rico:description "host of the congress" ;
+    rico:relationHasSource ex:activity_andrea_costas_participation_in_the_ii_internazionale_congress_and_election_as_vice_president_of_the_camera_26 ;
+    rico:relationHasTarget ex:ii_internazionale .
+
+ex:stoccarda_andrea_costas_participation_in_the_ii_internazionale_congress_and_election_as_vice_president_of_the_camera_26 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_stoccarda ;
+    rico:relationHasTarget ex:activity_andrea_costas_participation_in_the_ii_internazionale_congress_and_election_as_vice_president_of_the_camera_26 .
+
+ex:activity_type_congress_participation a rico:ActivityType ;
+    rico:name "congress participation" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:ii_internazionale a rico:CorporateBody ;
+    rico:name "II Internazionale" .
+
+ex:place_stoccarda a rico:Place ;
+    rico:description "location of the II Internazionale congress" ;
+    rico:name "Stoccarda" .
+
+ex:activity_andrea_costas_participation_in_the_ii_internazionale_congress_and_election_as_vice_president_of_the_camera_26 a rico:Activity ;
+    rico:beginningDate "1907-01-01"^^xsd:date ;
+    rico:endDate "1907-01-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_congress_participation ;
+    rico:name "Andrea Costa's participation in the II Internazionale congress and election as vice president of the Camera" .
+

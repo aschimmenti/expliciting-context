@@ -1,0 +1,45 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_involvement_in_the_internazionale_5 a rico:PerformanceRelation ;
+    rico:description "secretary" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_internazionale_5 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:carlo_cafiero_andrea_costas_involvement_in_the_internazionale_5 a rico:PerformanceRelation ;
+    rico:description "president" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_internazionale_5 ;
+    rico:relationHasTarget ex:carlo_cafiero .
+
+ex:federazione_italiana_dellinternazionale_andrea_costas_involvement_in_the_internazionale_5 a rico:PerformanceRelation ;
+    rico:description "federation" ;
+    rico:relationHasSource ex:activity_andrea_costas_involvement_in_the_internazionale_5 ;
+    rico:relationHasTarget ex:federazione_italiana_dellinternazionale .
+
+ex:rimini_italy_andrea_costas_involvement_in_the_internazionale_5 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_rimini_italy ;
+    rico:relationHasTarget ex:activity_andrea_costas_involvement_in_the_internazionale_5 .
+
+ex:activity_type_congress_of_the_federazione_italiana_dellinternazionale a rico:ActivityType ;
+    rico:name "congress of the Federazione italiana dell'Internazionale" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:carlo_cafiero a rico:Person ;
+    rico:name "Carlo Cafiero" .
+
+ex:federazione_italiana_dellinternazionale a rico:CorporateBody ;
+    rico:name "Federazione italiana dell'Internazionale" .
+
+ex:place_rimini_italy a rico:Place ;
+    rico:description "location of the congress of the Federazione italiana dell'Internazionale" ;
+    rico:name "Rimini, Italy" .
+
+ex:activity_andrea_costas_involvement_in_the_internazionale_5 a rico:Activity ;
+    rico:beginningDate "1872-01-01"^^xsd:date ;
+    rico:endDate "1872-01-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_congress_of_the_federazione_italiana_dellinternazionale ;
+    rico:name "Andrea Costa's involvement in the Internazionale" .
+

@@ -1,0 +1,143 @@
+[
+  {
+    "paragraphindex": 1,
+    "paragraphtext": "Frequenta le scuole elementari gestite da un sacerdote e negli anni scolastici 1866-1867 e 1867-1868 frequenta la scuola tecnica comunale con Gaetano Darchini, Luigi Sassi e Angelo Negri.",
+    "events": [
+      {
+        "type": "EDUCATION",
+        "text": "Frequenta le scuole elementari gestite da un sacerdote e negli anni scolastici 1866-1867 e 1867-1868 frequenta la scuola tecnica comunale con Gaetano Darchini, Luigi Sassi e Angelo Negri.",
+        "data": {
+          "description": "Andrea Costa's education at scuole elementari and scuola tecnica comunale",
+          "education": [
+            {
+              "name": "Andrea Costa",
+              "role": "student",
+              "period": {
+                "startDate": "",
+                "endDate": ""
+              },
+              "institution": {
+                "name": "scuole elementari",
+                "type": "elementary school",
+                "location": null
+              }
+            },
+            {
+              "name": "Andrea Costa",
+              "role": "student",
+              "period": {
+                "startDate": "1866",
+                "endDate": "1868"
+              },
+              "institution": {
+                "name": "scuola tecnica comunale",
+                "type": "technical school",
+                "location": null
+              }
+            },
+            {
+              "name": "Gaetano Darchini",
+              "role": "student",
+              "period": {
+                "startDate": "1866",
+                "endDate": "1868"
+              },
+              "institution": {
+                "name": "scuola tecnica comunale",
+                "type": "technical school",
+                "location": null
+              }
+            },
+            {
+              "name": "Luigi Sassi",
+              "role": "mentor",
+              "period": {
+                "startDate": "1866",
+                "endDate": "1868"
+              },
+              "institution": {
+                "name": "scuola tecnica comunale",
+                "type": "technical school",
+                "location": null
+              }
+            },
+            {
+              "name": "a sacerdote",
+              "role": "teacher",
+              "institution": {
+                "name": "scuole elementari",
+                "type": "elementary school",
+                "location": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 2,
+    "paragraphtext": "Negli anni scolastici 1868-1869 e 1869-1870 frequenta il liceo come uditore per le lezioni di letteratura italiana e latina.",
+    "events": [
+      {
+        "type": "EDUCATION",
+        "text": "Negli anni scolastici 1868-1869 e 1869-1870 frequenta il liceo come uditore per le lezioni di letteratura italiana e latina.",
+        "data": {
+          "description": "Andrea Costa's education at the liceo",
+          "education": [
+            {
+              "name": "Andrea Costa",
+              "role": "student",
+              "period": {
+                "startDate": "1868",
+                "endDate": "1870"
+              },
+              "institution": {
+                "name": "liceo",
+                "type": "school",
+                "location": ""
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "paragraphindex": 3,
+    "paragraphtext": "Il 15 dicembre 1870 si iscrive alla facoltà di filosofia e belle lettere dell'Università di Bologna come \"studente libero\" non avendo la possibilità di pagare le regolari tasse di ammissione e per mantenersi si impiega come scrivano in un'agenzia di assicurazioni imolese. Lì un impiegato, Paolo Renzi, lo associa, o almeno lo avvicina, all'Internazionale. A Imola e a Bologna compie il suo noviziato, nell'atmosfera che presto si accenderà degli entusiasmi per la Comune, e nel contatto con Carducci, che lo predilige fra i suoi allievi.",
+    "events": [
+      {
+        "type": "EDUCATION",
+        "text": "Il 15 dicembre 1870 si iscrive alla facoltà di filosofia e belle lettere dell'Università di Bologna come \"studente libero\" non avendo la possibilità di pagare le regolari tasse di ammissione e per mantenersi si impiega come scrivano in un'agenzia di assicurazioni imolese. Lì un impiegato, Paolo Renzi, lo associa, o almeno lo avvicina, all'Internazionale. A Imola e a Bologna compie il suo noviziato, nell'atmosfera che presto si accenderà degli entusiasmi per la Comune, e nel contatto con Carducci, che lo predilige fra i suoi allievi.",
+        "data": {
+          "description": "Andrea Costa's education at the Università di Bologna's facoltà di filosofia e belle lettere",
+          "education": [
+            {
+              "name": "Andrea Costa",
+              "role": "student",
+              "period": {
+                "startDate": "15/12/1870",
+                "endDate": null
+              },
+              "institution": {
+                "name": "Università di Bologna, facoltà di filosofia e belle lettere",
+                "type": "university",
+                "location": "Bologna"
+              }
+            },
+            {
+              "name": "Carducci",
+              "role": "professor",
+              "institution": {
+                "name": "Università di Bologna, facoltà di filosofia e belle lettere",
+                "type": "university",
+                "location": "Bologna"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 a rico:PerformanceRelation ;
+    rico:description "fugitive" ;
+    rico:relationHasSource ex:activity_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:bologna_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_bologna ;
+    rico:relationHasTarget ex:activity_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 .
+
+ex:svizzera_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_svizzera ;
+    rico:relationHasTarget ex:activity_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 .
+
+ex:the_authorities_or_government_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 a rico:PerformanceRelation ;
+    rico:description "pursuing authority" ;
+    rico:relationHasSource ex:activity_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 ;
+    rico:relationHasTarget ex:the_authorities_or_government .
+
+ex:violetta_dallalpi_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 a rico:PerformanceRelation ;
+    rico:description "mother of Andreino" ;
+    rico:relationHasSource ex:activity_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 ;
+    rico:relationHasTarget ex:violetta_dallalpi .
+
+ex:activity_type_fleeing_to_avoid_arrest a rico:ActivityType ;
+    rico:name "fleeing to avoid arrest" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:place_bologna a rico:Place ;
+    rico:description "city in Italy, location of the birth of Andreino" ;
+    rico:name "Bologna" .
+
+ex:place_svizzera a rico:Place ;
+    rico:description "Switzerland, country to which Costa fled" ;
+    rico:name "Svizzera" .
+
+ex:the_authorities_or_government a rico:CorporateBody ;
+    rico:name "The authorities or government" .
+
+ex:violetta_dallalpi a rico:Person ;
+    rico:name "Violetta Dall'Alpi" .
+
+ex:activity_andrea_costas_flight_from_italy_to_switzerland_to_escape_persecution_and_arrest_12 a rico:Activity ;
+    rico:beginningDate "1877-08-05"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_fleeing_to_avoid_arrest ;
+    rico:name "Andrea Costa's flight from Italy to Switzerland to escape persecution and arrest" .
+

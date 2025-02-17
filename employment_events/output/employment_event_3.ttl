@@ -1,0 +1,24 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#positionHoldingRelation/andrea_costa_deputy_3> a rico:PositionHoldingRelation ;
+    rico:beginningDate "1882-02-26"^^xsd:date ;
+    rico:relationHasSource <http://example.org/#person/andrea_costa> ;
+    rico:relationHasTarget <http://example.org/#position/deputy_italian_parliament_camera> .
+
+<http://example.org/#corporatebody/italian_parliament_camera> a rico:CorporateBody ;
+    rico:corporateBodyType "Legislative Body" ;
+    rico:isLocatedAt <http://example.org/#place/ravenna> ;
+    rico:name "Italian Parliament (Camera)" .
+
+<http://example.org/#person/andrea_costa> a rico:Person ;
+    rico:name "Andrea Costa" .
+
+<http://example.org/#place/ravenna> a rico:Place ;
+    rico:description "Camera (Parliament) in the collegio of Ravenna, Italy" ;
+    rico:name "Ravenna" .
+
+<http://example.org/#position/deputy_italian_parliament_camera> a rico:Position ;
+    rico:existsOrExistedIn <http://example.org/#corporatebody/italian_parliament_camera> ;
+    rico:name "Deputy" .
+

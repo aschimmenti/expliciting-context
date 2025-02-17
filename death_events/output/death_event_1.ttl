@@ -1,0 +1,13 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/event/death_francesco_piccinini_1> a rico:Event ;
+    rico:description "Cause of death: assassination",
+        "Francesco Piccinini's death commemorated by Andrea Costa" ;
+    rico:hasOrHadParticipant <http://example.org/person/francesco_piccinini> ;
+    rico:name "Death of Francesco Piccinini" .
+
+<http://example.org/person/francesco_piccinini> a rico:Person ;
+    rico:hasDeathDate "1872-01-01"^^xsd:date ;
+    rico:name "Francesco Piccinini" .
+

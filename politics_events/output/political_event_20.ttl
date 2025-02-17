@@ -1,0 +1,34 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+ex:andrea_costa_andrea_costas_efforts_to_unify_and_strengthen_the_socialist_movement_in_italy_20 a rico:PerformanceRelation ;
+    rico:description "leader of the Partito socialista rivoluzionario di Romagna" ;
+    rico:relationHasSource ex:activity_andrea_costas_efforts_to_unify_and_strengthen_the_socialist_movement_in_italy_20 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:gli_operaisti_milanesi_andrea_costas_efforts_to_unify_and_strengthen_the_socialist_movement_in_italy_20 a rico:PerformanceRelation ;
+    rico:description "organization of Milanese workers" ;
+    rico:relationHasSource ex:activity_andrea_costas_efforts_to_unify_and_strengthen_the_socialist_movement_in_italy_20 ;
+    rico:relationHasTarget ex:gli_operaisti_milanesi .
+
+ex:milano_andrea_costas_efforts_to_unify_and_strengthen_the_socialist_movement_in_italy_20 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_milano ;
+    rico:relationHasTarget ex:activity_andrea_costas_efforts_to_unify_and_strengthen_the_socialist_movement_in_italy_20 .
+
+ex:activity_type_contacts_between_andrea_costa_and_gli_operaisti_milanesi a rico:ActivityType ;
+    rico:name "contacts between Andrea Costa and gli operaisti milanesi" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:gli_operaisti_milanesi a rico:CorporateBody ;
+    rico:name "Gli operaisti milanesi" .
+
+ex:place_milano a rico:Place ;
+    rico:description "city where the operaisti milanesi were based" ;
+    rico:name "Milano" .
+
+ex:activity_andrea_costas_efforts_to_unify_and_strengthen_the_socialist_movement_in_italy_20 a rico:Activity ;
+    rico:hasActivityType ex:activity_type_contacts_between_andrea_costa_and_gli_operaisti_milanesi ;
+    rico:name "Andrea Costa's efforts to unify and strengthen the socialist movement in Italy" .
+

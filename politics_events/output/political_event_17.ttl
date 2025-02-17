@@ -1,0 +1,44 @@
+@prefix ex: <http://example.org/#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andrea_costa_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 a rico:PerformanceRelation ;
+    rico:description "influential individual" ;
+    rico:relationHasSource ex:activity_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 ;
+    rico:relationHasTarget ex:andrea_costa .
+
+ex:benoît_malon_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 a rico:PerformanceRelation ;
+    rico:description "individual helping with influence" ;
+    rico:relationHasSource ex:activity_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 ;
+    rico:relationHasTarget ex:benoît_malon .
+
+ex:francia_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 a rico:PlaceRelation ;
+    rico:relationHasSource ex:place_francia ;
+    rico:relationHasTarget ex:activity_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 .
+
+ex:italian_organizations_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 a rico:PerformanceRelation ;
+    rico:description "organizations influenced" ;
+    rico:relationHasSource ex:activity_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 ;
+    rico:relationHasTarget ex:italian_organizations .
+
+ex:activity_type_influence_on_italian_organizations a rico:ActivityType ;
+    rico:name "influence on Italian organizations" .
+
+ex:andrea_costa a rico:Person ;
+    rico:name "Andrea Costa" .
+
+ex:benoît_malon a rico:Person ;
+    rico:name "Benoît Malon" .
+
+ex:italian_organizations a rico:CorporateBody ;
+    rico:name "Italian organizations" .
+
+ex:place_francia a rico:Place ;
+    rico:description "country where influence on Italian organizations occurred" ;
+    rico:name "Francia" .
+
+ex:activity_influence_on_italian_organizations_to_distance_themselves_from_bakuninismo_17 a rico:Activity ;
+    rico:beginningDate "1879-06-01"^^xsd:date ;
+    rico:hasActivityType ex:activity_type_influence_on_italian_organizations ;
+    rico:name "Influence on Italian organizations to distance themselves from bakuninismo" .
+
